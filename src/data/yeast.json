@@ -4,8 +4,9 @@
     "Lab": "DCL/Fermentis",
     "Type": "Lager",
     "Form": "Dry",
-    "Temp": "46F - 50F",
-    "Attenuation": "73.50%",
+    "MinTemp": 8,
+    "MaxTemp": 10,
+    "Attenuation": 0.735,
     "Flocculation": "High"
   },
   {
@@ -13,8 +14,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "46F - 56F",
-    "Attenuation": "73.00%",
+    "MinTemp": 8,
+    "MaxTemp": 13,
+    "Attenuation": 0.73,
     "Flocculation": "High"
   },
   {
@@ -22,8 +24,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "46F - 56F",
-    "Attenuation": "75.00%",
+    "MinTemp": 8,
+    "MaxTemp": 13,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -31,8 +34,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "46F - 56F",
-    "Attenuation": "75.00%",
+    "MinTemp": 8,
+    "MaxTemp": 13,
+    "Attenuation": 0.75,
     "Flocculation": "Low"
   },
   {
@@ -40,8 +44,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "46F - 58F",
-    "Attenuation": "75.00%",
+    "MinTemp": 8,
+    "MaxTemp": 14,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -49,8 +54,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "48F - 52F",
-    "Attenuation": "70.00%",
+    "MinTemp": 9,
+    "MaxTemp": 11,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -58,8 +64,9 @@
     "Lab": "Brewtek",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 54F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 12,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -67,8 +74,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 55F",
-    "Attenuation": "73.00%",
+    "MinTemp": 9,
+    "MaxTemp": 13,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -76,8 +84,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 56F",
-    "Attenuation": "73.00%",
+    "MinTemp": 9,
+    "MaxTemp": 13,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -85,8 +94,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 56F",
-    "Attenuation": "73.00%",
+    "MinTemp": 9,
+    "MaxTemp": 13,
+    "Attenuation": 0.73,
     "Flocculation": "High"
   },
   {
@@ -94,8 +104,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 56F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 13,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -103,8 +114,9 @@
     "Lab": "DCL/Fermentis",
     "Type": "Lager",
     "Form": "Dry",
-    "Temp": "48F - 56F",
-    "Attenuation": "72.50%",
+    "MinTemp": 9,
+    "MaxTemp": 13,
+    "Attenuation": 0.725,
     "Flocculation": "High"
   },
   {
@@ -112,8 +124,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "74.00%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.74,
     "Flocculation": "Medium"
   },
   {
@@ -121,8 +134,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -130,8 +144,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "71.00%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.71,
     "Flocculation": "Medium"
   },
   {
@@ -139,8 +154,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "73.00%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -148,8 +164,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.75,
     "Flocculation": "Low"
   },
   {
@@ -157,8 +174,9 @@
     "Lab": "Brewtek",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "75.50%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.755,
     "Flocculation": "Medium"
   },
   {
@@ -166,8 +184,9 @@
     "Lab": "Brewtek",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -175,8 +194,9 @@
     "Lab": "Brewtek",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -184,8 +204,9 @@
     "Lab": "Brewtek",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -193,8 +214,9 @@
     "Lab": "Brewtek",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -202,8 +224,9 @@
     "Lab": "Brewtek",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 58F",
-    "Attenuation": "76.50%",
+    "MinTemp": 9,
+    "MaxTemp": 14,
+    "Attenuation": 0.765,
     "Flocculation": "Medium"
   },
   {
@@ -211,8 +234,9 @@
     "Lab": "DCL/Fermentis",
     "Type": "Lager",
     "Form": "Dry",
-    "Temp": "48F - 59F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 15,
+    "Attenuation": 0.75,
     "Flocculation": "High"
   },
   {
@@ -220,8 +244,9 @@
     "Lab": "Brewtek",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "48F - 65F",
-    "Attenuation": "75.00%",
+    "MinTemp": 9,
+    "MaxTemp": 18,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -229,8 +254,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "48F - 68F",
-    "Attenuation": "73.00%",
+    "MinTemp": 9,
+    "MaxTemp": 20,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -238,8 +264,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "48F - 68F",
-    "Attenuation": "73.00%",
+    "MinTemp": 9,
+    "MaxTemp": 20,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -247,8 +274,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "74.50%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.745,
     "Flocculation": "High"
   },
   {
@@ -256,8 +284,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "77.50%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.775,
     "Flocculation": "Medium"
   },
   {
@@ -265,8 +294,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "75.00%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -274,8 +304,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "76.50%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.765,
     "Flocculation": "Medium"
   },
   {
@@ -283,8 +314,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "82.00%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.82,
     "Flocculation": "Medium"
   },
   {
@@ -292,8 +324,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "72.00%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.72,
     "Flocculation": "High"
   },
   {
@@ -301,8 +334,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "77.50%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.775,
     "Flocculation": "Medium"
   },
   {
@@ -310,8 +344,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "77.50%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.775,
     "Flocculation": "Medium"
   },
   {
@@ -319,8 +354,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "75.00%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -328,8 +364,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "69.50%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.695,
     "Flocculation": "Medium"
   },
   {
@@ -337,8 +374,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 55F",
-    "Attenuation": "74.00%",
+    "MinTemp": 10,
+    "MaxTemp": 13,
+    "Attenuation": 0.74,
     "Flocculation": "Medium"
   },
   {
@@ -346,8 +384,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "50F - 58F",
-    "Attenuation": "72.00%",
+    "MinTemp": 10,
+    "MaxTemp": 14,
+    "Attenuation": 0.72,
     "Flocculation": "Medium"
   },
   {
@@ -355,8 +394,9 @@
     "Lab": "Brewferm",
     "Type": "Lager",
     "Form": "Dry",
-    "Temp": "50F - 59F",
-    "Attenuation": "78.00%",
+    "MinTemp": 10,
+    "MaxTemp": 15,
+    "Attenuation": 0.78,
     "Flocculation": "Medium"
   },
   {
@@ -364,8 +404,9 @@
     "Lab": "Lallemand",
     "Type": "Lager",
     "Form": "Dry",
-    "Temp": "50F - 59F",
-    "Attenuation": "73.00%",
+    "MinTemp": 10,
+    "MaxTemp": 15,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -373,8 +414,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "52F - 58F",
-    "Attenuation": "69.00%",
+    "MinTemp": 11,
+    "MaxTemp": 14,
+    "Attenuation": 0.69,
     "Flocculation": "Medium"
   },
   {
@@ -382,8 +424,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "55F - 66F",
-    "Attenuation": "75.00%",
+    "MinTemp": 13,
+    "MaxTemp": 19,
+    "Attenuation": 0.75,
     "Flocculation": "Low"
   },
   {
@@ -391,8 +434,9 @@
     "Lab": "Brewtek",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "55F - 68F",
-    "Attenuation": "73.00%",
+    "MinTemp": 13,
+    "MaxTemp": 20,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -400,8 +444,9 @@
     "Lab": "Brewtek",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "55F - 68F",
-    "Attenuation": "76.00%",
+    "MinTemp": 13,
+    "MaxTemp": 20,
+    "Attenuation": 0.76,
     "Flocculation": "Medium"
   },
   {
@@ -409,8 +454,9 @@
     "Lab": "Brewtek",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "55F - 68F",
-    "Attenuation": "75.00%",
+    "MinTemp": 13,
+    "MaxTemp": 20,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -418,8 +464,9 @@
     "Lab": "Brewtek",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "55F - 68F",
-    "Attenuation": "75.00%",
+    "MinTemp": 13,
+    "MaxTemp": 20,
+    "Attenuation": 0.75,
     "Flocculation": "Low"
   },
   {
@@ -427,8 +474,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "55F - 75F",
-    "Attenuation": "71.00%",
+    "MinTemp": 13,
+    "MaxTemp": 24,
+    "Attenuation": 0.71,
     "Flocculation": "High"
   },
   {
@@ -436,8 +484,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "55F - 80F",
-    "Attenuation": "80.00%",
+    "MinTemp": 13,
+    "MaxTemp": 27,
+    "Attenuation": 0.8,
     "Flocculation": "Medium"
   },
   {
@@ -445,8 +494,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "56F - 64F",
-    "Attenuation": "75.00%",
+    "MinTemp": 13,
+    "MaxTemp": 18,
+    "Attenuation": 0.75,
     "Flocculation": "Low"
   },
   {
@@ -454,8 +504,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "56F - 72F",
-    "Attenuation": "74.50%",
+    "MinTemp": 13,
+    "MaxTemp": 22,
+    "Attenuation": 0.745,
     "Flocculation": "Medium"
   },
   {
@@ -463,8 +514,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "56F - 72F",
-    "Attenuation": "74.00%",
+    "MinTemp": 13,
+    "MaxTemp": 22,
+    "Attenuation": 0.74,
     "Flocculation": "Medium"
   },
   {
@@ -472,8 +524,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "56F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 13,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -481,8 +534,9 @@
     "Lab": "Danstar",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "57F - 70F",
-    "Attenuation": "75.00%",
+    "MinTemp": 14,
+    "MaxTemp": 21,
+    "Attenuation": 0.75,
     "Flocculation": "High"
   },
   {
@@ -490,8 +544,9 @@
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "58F - 65F",
-    "Attenuation": "67.50%",
+    "MinTemp": 14,
+    "MaxTemp": 18,
+    "Attenuation": 0.675,
     "Flocculation": "High"
   },
   {
@@ -499,8 +554,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "58F - 68F",
-    "Attenuation": "74.00%",
+    "MinTemp": 14,
+    "MaxTemp": 20,
+    "Attenuation": 0.74,
     "Flocculation": "Medium"
   },
   {
@@ -508,8 +564,9 @@
     "Lab": "Wyeast",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "58F - 68F",
-    "Attenuation": "69.00%",
+    "MinTemp": 14,
+    "MaxTemp": 20,
+    "Attenuation": 0.69,
     "Flocculation": "High"
   },
   {
@@ -517,8 +574,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "58F - 74F",
-    "Attenuation": "76.00%",
+    "MinTemp": 14,
+    "MaxTemp": 23,
+    "Attenuation": 0.76,
     "Flocculation": "Low"
   },
   {
@@ -526,8 +584,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "58F - 74F",
-    "Attenuation": "76.00%",
+    "MinTemp": 14,
+    "MaxTemp": 23,
+    "Attenuation": 0.76,
     "Flocculation": "Low"
   },
   {
@@ -535,8 +594,9 @@
     "Lab": "DCL/Fermentis",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "59F - 75.2F",
-    "Attenuation": "73.00%",
+    "MinTemp": 15,
+    "MaxTemp": 24,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -544,8 +604,9 @@
     "Lab": "DCL/Fermentis",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "59F - 75.2F",
-    "Attenuation": "73.00%",
+    "MinTemp": 15,
+    "MaxTemp": 24,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -553,8 +614,9 @@
     "Lab": "DCL/Fermentis",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "59F - 75F",
-    "Attenuation": "76.50%",
+    "MinTemp": 15,
+    "MaxTemp": 24,
+    "Attenuation": 0.765,
     "Flocculation": "Medium"
   },
   {
@@ -562,8 +624,9 @@
     "Lab": "DCL/Fermentis",
     "Type": "Wheat",
     "Form": "Dry",
-    "Temp": "59F - 75F",
-    "Attenuation": "68.00%",
+    "MinTemp": 15,
+    "MaxTemp": 24,
+    "Attenuation": 0.68,
     "Flocculation": "Medium"
   },
   {
@@ -571,8 +634,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 68F",
-    "Attenuation": "78.50%",
+    "MinTemp": 16,
+    "MaxTemp": 20,
+    "Attenuation": 0.785,
     "Flocculation": "High"
   },
   {
@@ -580,8 +644,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 70F",
-    "Attenuation": "75.00%",
+    "MinTemp": 16,
+    "MaxTemp": 21,
+    "Attenuation": 0.75,
     "Flocculation": "Low"
   },
   {
@@ -589,8 +654,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 70F",
-    "Attenuation": "75.00%",
+    "MinTemp": 16,
+    "MaxTemp": 21,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -598,8 +664,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 16,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -607,8 +674,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 16,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -616,8 +684,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 72F",
-    "Attenuation": "74.00%",
+    "MinTemp": 16,
+    "MaxTemp": 22,
+    "Attenuation": 0.74,
     "Flocculation": "High"
   },
   {
@@ -625,8 +694,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 72F",
-    "Attenuation": "74.00%",
+    "MinTemp": 16,
+    "MaxTemp": 22,
+    "Attenuation": 0.74,
     "Flocculation": "High"
   },
   {
@@ -634,8 +704,9 @@
     "Lab": "DCL/Fermentis",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "60F - 72F",
-    "Attenuation": "73.00%",
+    "MinTemp": 16,
+    "MaxTemp": 22,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -643,8 +714,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 75F",
-    "Attenuation": "67.00%",
+    "MinTemp": 16,
+    "MaxTemp": 24,
+    "Attenuation": 0.67,
     "Flocculation": "Medium"
   },
   {
@@ -652,8 +724,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 75F",
-    "Attenuation": "82.00%",
+    "MinTemp": 16,
+    "MaxTemp": 24,
+    "Attenuation": 0.82,
     "Flocculation": "Medium"
   },
   {
@@ -661,17 +734,19 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 75F",
-    "Attenuation": "80.00%",
-    "Flocculation": "Very High"
+    "MinTemp": 16,
+    "MaxTemp": 24,
+    "Attenuation": 0.8,
+    "Flocculation": "High"
   },
   {
     "Name": "4335 Lactobacillus Delbrueckii",
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 95F",
-    "Attenuation": "67.00%",
+    "MinTemp": 16,
+    "MaxTemp": 35,
+    "Attenuation": 0.67,
     "Flocculation": "Medium"
   },
   {
@@ -679,8 +754,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 95F",
-    "Attenuation": "67.00%",
+    "MinTemp": 16,
+    "MaxTemp": 35,
+    "Attenuation": 0.67,
     "Flocculation": "Medium"
   },
   {
@@ -688,8 +764,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "60F - 95F",
-    "Attenuation": "80.00%",
+    "MinTemp": 16,
+    "MaxTemp": 35,
+    "Attenuation": 0.8,
     "Flocculation": "Medium"
   },
   {
@@ -697,8 +774,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "73.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -706,8 +784,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "77.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.77,
     "Flocculation": "Medium"
   },
   {
@@ -715,8 +794,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "69.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.69,
     "Flocculation": "High"
   },
   {
@@ -724,8 +804,9 @@
     "Lab": "Coopers",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -733,8 +814,9 @@
     "Lab": "Doric",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -742,8 +824,9 @@
     "Lab": "Edme",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -751,8 +834,9 @@
     "Lab": "Glenbrew",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -760,26 +844,29 @@
     "Lab": "Lallemand",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
-    "Flocculation": "Very High"
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
+    "Flocculation": "High"
   },
   {
     "Name": "Windsor Yeast",
     "Lab": "Lallemand",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
-    "Flocculation": "Very High"
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
+    "Flocculation": "High"
   },
   {
     "Name": "Munton Fison Ale",
     "Lab": "Munton-Fison",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -787,8 +874,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "74.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.74,
     "Flocculation": "Medium"
   },
   {
@@ -796,8 +884,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "76.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.76,
     "Flocculation": "Medium"
   },
   {
@@ -805,8 +894,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -814,8 +904,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "68.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.68,
     "Flocculation": "Medium"
   },
   {
@@ -823,8 +914,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -832,8 +924,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "76.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.76,
     "Flocculation": "Medium"
   },
   {
@@ -841,8 +934,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "77.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.77,
     "Flocculation": "Medium"
   },
   {
@@ -850,8 +944,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -859,8 +954,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "76.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.76,
     "Flocculation": "Medium"
   },
   {
@@ -868,8 +964,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Low"
   },
   {
@@ -877,8 +974,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -886,8 +984,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "75.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -895,8 +994,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "76.00%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.76,
     "Flocculation": "Medium"
   },
   {
@@ -904,8 +1004,9 @@
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "62F - 72F",
-    "Attenuation": "76.50%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.765,
     "Flocculation": "Medium"
   },
   {
@@ -913,8 +1014,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "62F - 75F",
-    "Attenuation": "74.00%",
+    "MinTemp": 17,
+    "MaxTemp": 24,
+    "Attenuation": 0.74,
     "Flocculation": "Medium"
   },
   {
@@ -922,8 +1024,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "63F - 72F",
-    "Attenuation": "75.50%",
+    "MinTemp": 17,
+    "MaxTemp": 22,
+    "Attenuation": 0.755,
     "Flocculation": "Medium"
   },
   {
@@ -931,8 +1034,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "63F - 75F",
-    "Attenuation": "74.50%",
+    "MinTemp": 17,
+    "MaxTemp": 24,
+    "Attenuation": 0.745,
     "Flocculation": "High"
   },
   {
@@ -940,8 +1044,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "63F - 75F",
-    "Attenuation": "70.00%",
+    "MinTemp": 17,
+    "MaxTemp": 24,
+    "Attenuation": 0.7,
     "Flocculation": "Low"
   },
   {
@@ -949,8 +1054,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "63F - 75F",
-    "Attenuation": "73.00%",
+    "MinTemp": 17,
+    "MaxTemp": 24,
+    "Attenuation": 0.73,
     "Flocculation": "High"
   },
   {
@@ -958,8 +1064,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "63F - 76F",
-    "Attenuation": "74.00%",
+    "MinTemp": 17,
+    "MaxTemp": 24,
+    "Attenuation": 0.74,
     "Flocculation": "Low"
   },
   {
@@ -967,8 +1074,9 @@
     "Lab": "Danstar",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "63F - 77F",
-    "Attenuation": "80.00%",
+    "MinTemp": 17,
+    "MaxTemp": 25,
+    "Attenuation": 0.8,
     "Flocculation": "Low"
   },
   {
@@ -976,8 +1084,9 @@
     "Lab": "Brewferm",
     "Type": "Wheat",
     "Form": "Dry",
-    "Temp": "64.4F - 73.4F",
-    "Attenuation": "73.00%",
+    "MinTemp": 18,
+    "MaxTemp": 23,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -985,8 +1094,9 @@
     "Lab": "Danstar",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "64F - 70F",
-    "Attenuation": "72.00%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.72,
     "Flocculation": "Medium"
   },
   {
@@ -994,8 +1104,9 @@
     "Lab": "Danstar",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "64F - 70F",
-    "Attenuation": "72.00%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.72,
     "Flocculation": "Medium"
   },
   {
@@ -1003,8 +1114,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "64F - 72F",
-    "Attenuation": "73.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -1012,8 +1124,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "64F - 72F",
-    "Attenuation": "74.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.74,
     "Flocculation": "Medium"
   },
   {
@@ -1021,8 +1134,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "64F - 72F",
-    "Attenuation": "69.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.69,
     "Flocculation": "High"
   },
   {
@@ -1030,8 +1144,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "64F - 74F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 23,
+    "Attenuation": 0.7,
     "Flocculation": "High"
   },
   {
@@ -1039,8 +1154,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "64F - 74F",
-    "Attenuation": "73.00%",
+    "MinTemp": 18,
+    "MaxTemp": 23,
+    "Attenuation": 0.73,
     "Flocculation": "High"
   },
   {
@@ -1048,8 +1164,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "64F - 74F",
-    "Attenuation": "73.00%",
+    "MinTemp": 18,
+    "MaxTemp": 23,
+    "Attenuation": 0.73,
     "Flocculation": "High"
   },
   {
@@ -1057,8 +1174,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "64F - 74F",
-    "Attenuation": "75.00%",
+    "MinTemp": 18,
+    "MaxTemp": 23,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -1066,8 +1184,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "64F - 74F",
-    "Attenuation": "74.00%",
+    "MinTemp": 18,
+    "MaxTemp": 23,
+    "Attenuation": 0.74,
     "Flocculation": "Medium"
   },
   {
@@ -1075,8 +1194,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "64F - 75F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 24,
+    "Attenuation": 0.7,
     "Flocculation": "High"
   },
   {
@@ -1084,8 +1204,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "64F - 75F",
-    "Attenuation": "75.00%",
+    "MinTemp": 18,
+    "MaxTemp": 24,
+    "Attenuation": 0.75,
     "Flocculation": "Low"
   },
   {
@@ -1093,8 +1214,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "64F - 75F",
-    "Attenuation": "73.00%",
+    "MinTemp": 18,
+    "MaxTemp": 24,
+    "Attenuation": 0.73,
     "Flocculation": "Low"
   },
   {
@@ -1102,8 +1224,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "64F - 78F",
-    "Attenuation": "76.00%",
+    "MinTemp": 18,
+    "MaxTemp": 26,
+    "Attenuation": 0.76,
     "Flocculation": "Medium"
   },
   {
@@ -1111,8 +1234,9 @@
     "Lab": "Danstar",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "64F - 90F",
-    "Attenuation": "82.50%",
+    "MinTemp": 18,
+    "MaxTemp": 32,
+    "Attenuation": 0.825,
     "Flocculation": "Low"
   },
   {
@@ -1120,17 +1244,19 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 68F",
-    "Attenuation": "66.50%",
-    "Flocculation": "Very High"
+    "MinTemp": 18,
+    "MaxTemp": 20,
+    "Attenuation": 0.665,
+    "Flocculation": "High"
   },
   {
     "Name": "WLP004 Irish Ale Yeast",
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 68F",
-    "Attenuation": "71.50%",
+    "MinTemp": 18,
+    "MaxTemp": 20,
+    "Attenuation": 0.715,
     "Flocculation": "Medium"
   },
   {
@@ -1138,8 +1264,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 68F",
-    "Attenuation": "67.50%",
+    "MinTemp": 18,
+    "MaxTemp": 20,
+    "Attenuation": 0.675,
     "Flocculation": "High"
   },
   {
@@ -1147,17 +1274,19 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 68F",
-    "Attenuation": "75.00%",
-    "Flocculation": "Very High"
+    "MinTemp": 18,
+    "MaxTemp": 20,
+    "Attenuation": 0.75,
+    "Flocculation": "High"
   },
   {
     "Name": "WLP090 San Diego Super Yeast WLP090",
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 68F",
-    "Attenuation": "79.50%",
+    "MinTemp": 18,
+    "MaxTemp": 20,
+    "Attenuation": 0.795,
     "Flocculation": "Medium"
   },
   {
@@ -1165,8 +1294,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 69F",
-    "Attenuation": "76.00%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.76,
     "Flocculation": "Low"
   },
   {
@@ -1174,8 +1304,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 69F",
-    "Attenuation": "75.00%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -1183,8 +1314,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 69F",
-    "Attenuation": "68.50%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.685,
     "Flocculation": "Medium"
   },
   {
@@ -1192,8 +1324,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 69F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.7,
     "Flocculation": "High"
   },
   {
@@ -1201,8 +1334,9 @@
     "Lab": "White Labs",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "65F - 69F",
-    "Attenuation": "72.50%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.725,
     "Flocculation": "Low"
   },
   {
@@ -1210,8 +1344,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 70F",
-    "Attenuation": "76.50%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.765,
     "Flocculation": "Medium"
   },
   {
@@ -1219,8 +1354,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 70F",
-    "Attenuation": "76.00%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.76,
     "Flocculation": "High"
   },
   {
@@ -1228,8 +1364,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 70F",
-    "Attenuation": "75.00%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.75,
     "Flocculation": "High"
   },
   {
@@ -1237,8 +1374,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 70F",
-    "Attenuation": "72.50%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.725,
     "Flocculation": "High"
   },
   {
@@ -1246,8 +1384,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 70F",
-    "Attenuation": "67.50%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.675,
     "Flocculation": "Medium"
   },
   {
@@ -1255,8 +1394,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 70F",
-    "Attenuation": "72.50%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.725,
     "Flocculation": "Medium"
   },
   {
@@ -1264,8 +1404,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 70F",
-    "Attenuation": "72.00%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.72,
     "Flocculation": "Medium"
   },
   {
@@ -1273,8 +1414,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 70F",
-    "Attenuation": "77.50%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.775,
     "Flocculation": "Medium"
   },
   {
@@ -1282,8 +1424,9 @@
     "Lab": "East Coast Yeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 70F",
-    "Attenuation": "82.00%",
+    "MinTemp": 18,
+    "MaxTemp": 21,
+    "Attenuation": 0.82,
     "Flocculation": "High"
   },
   {
@@ -1291,8 +1434,9 @@
     "Lab": "Lallemand",
     "Type": "Wheat",
     "Form": "Dry",
-    "Temp": "65F - 71F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -1300,8 +1444,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 72F",
-    "Attenuation": "77.50%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.775,
     "Flocculation": "Medium"
   },
   {
@@ -1309,8 +1454,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 72F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -1318,8 +1464,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 72F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -1327,8 +1474,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 72F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -1336,8 +1484,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 72F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -1345,8 +1494,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 72F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -1354,8 +1504,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 72F",
-    "Attenuation": "70.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -1363,8 +1514,9 @@
     "Lab": "DCL/Fermentis",
     "Type": "Ale",
     "Form": "Dry",
-    "Temp": "65F - 72F",
-    "Attenuation": "73.00%",
+    "MinTemp": 18,
+    "MaxTemp": 22,
+    "Attenuation": 0.73,
     "Flocculation": "Medium"
   },
   {
@@ -1372,8 +1524,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 73F",
-    "Attenuation": "81.50%",
+    "MinTemp": 18,
+    "MaxTemp": 23,
+    "Attenuation": 0.815,
     "Flocculation": "Medium"
   },
   {
@@ -1381,8 +1534,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 75F",
-    "Attenuation": "69.00%",
+    "MinTemp": 18,
+    "MaxTemp": 24,
+    "Attenuation": 0.69,
     "Flocculation": "High"
   },
   {
@@ -1390,8 +1544,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 75F",
-    "Attenuation": "76.00%",
+    "MinTemp": 18,
+    "MaxTemp": 24,
+    "Attenuation": 0.76,
     "Flocculation": "Low"
   },
   {
@@ -1399,8 +1554,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 75F",
-    "Attenuation": "75.00%",
+    "MinTemp": 18,
+    "MaxTemp": 24,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -1408,8 +1564,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 77F",
-    "Attenuation": "80.00%",
+    "MinTemp": 18,
+    "MaxTemp": 25,
+    "Attenuation": 0.8,
     "Flocculation": "Medium"
   },
   {
@@ -1417,8 +1574,9 @@
     "Lab": "Wyeast",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "65F - 85F",
-    "Attenuation": "74.00%",
+    "MinTemp": 18,
+    "MaxTemp": 29,
+    "Attenuation": 0.74,
     "Flocculation": "High"
   },
   {
@@ -1426,8 +1584,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "65F - 95F",
-    "Attenuation": "80.00%",
+    "MinTemp": 18,
+    "MaxTemp": 35,
+    "Attenuation": 0.8,
     "Flocculation": "Medium"
   },
   {
@@ -1435,8 +1594,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 69F",
-    "Attenuation": "71.50%",
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.715,
     "Flocculation": "Medium"
   },
   {
@@ -1444,8 +1604,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 70F",
-    "Attenuation": "73.50%",
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.735,
     "Flocculation": "Medium"
   },
   {
@@ -1453,8 +1614,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 70F",
-    "Attenuation": "70.00%",
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -1462,8 +1624,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 70F",
-    "Attenuation": "77.50%",
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.775,
     "Flocculation": "Medium"
   },
   {
@@ -1471,8 +1634,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 70F",
-    "Attenuation": "72.50%",
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.725,
     "Flocculation": "High"
   },
   {
@@ -1480,8 +1644,9 @@
     "Lab": "White Labs",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "66F - 70F",
-    "Attenuation": "75.00%",
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.75,
     "Flocculation": "Low"
   },
   {
@@ -1489,8 +1654,9 @@
     "Lab": "White Labs",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "66F - 70F",
-    "Attenuation": "76.50%",
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.765,
     "Flocculation": "Low"
   },
   {
@@ -1498,17 +1664,19 @@
     "Lab": "The Yeast Bay",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 70F",
-    "Attenuation": "78.50%",
-    "Flocculation": "Medium Low"
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.785,
+    "Flocculation": "Medium"
   },
   {
     "Name": "WLP013 London Ale",
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 71F",
-    "Attenuation": "71.00%",
+    "MinTemp": 19,
+    "MaxTemp": 22,
+    "Attenuation": 0.71,
     "Flocculation": "Medium"
   },
   {
@@ -1516,8 +1684,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 72F",
-    "Attenuation": "77.00%",
+    "MinTemp": 19,
+    "MaxTemp": 22,
+    "Attenuation": 0.77,
     "Flocculation": "Medium"
   },
   {
@@ -1525,8 +1694,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 72F",
-    "Attenuation": "77.50%",
+    "MinTemp": 19,
+    "MaxTemp": 22,
+    "Attenuation": 0.775,
     "Flocculation": "Medium"
   },
   {
@@ -1534,8 +1704,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 72F",
-    "Attenuation": "78.00%",
+    "MinTemp": 19,
+    "MaxTemp": 22,
+    "Attenuation": 0.78,
     "Flocculation": "Medium"
   },
   {
@@ -1543,17 +1714,19 @@
     "Lab": "East Coast Yeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 72F",
-    "Attenuation": "81.00%",
-    "Flocculation": "Medium Low"
+    "MinTemp": 19,
+    "MaxTemp": 22,
+    "Attenuation": 0.81,
+    "Flocculation": "Medium"
   },
   {
     "Name": "CL-0270 Australian Ale",
     "Lab": "Brewtek",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "66F - 76F",
-    "Attenuation": "75.00%",
+    "MinTemp": 19,
+    "MaxTemp": 24,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -1561,8 +1734,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "67F - 70F",
-    "Attenuation": "72.50%",
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.725,
     "Flocculation": "Medium"
   },
   {
@@ -1570,8 +1744,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "67F - 70F",
-    "Attenuation": "76.50%",
+    "MinTemp": 19,
+    "MaxTemp": 21,
+    "Attenuation": 0.765,
     "Flocculation": "Medium"
   },
   {
@@ -1579,8 +1754,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "67F - 74F",
-    "Attenuation": "70.50%",
+    "MinTemp": 19,
+    "MaxTemp": 23,
+    "Attenuation": 0.705,
     "Flocculation": "High"
   },
   {
@@ -1588,8 +1764,9 @@
     "Lab": "White Labs",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "67F - 74F",
-    "Attenuation": "76.00%",
+    "MinTemp": 19,
+    "MaxTemp": 23,
+    "Attenuation": 0.76,
     "Flocculation": "Low"
   },
   {
@@ -1597,8 +1774,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "67F - 74F",
-    "Attenuation": "72.50%",
+    "MinTemp": 19,
+    "MaxTemp": 23,
+    "Attenuation": 0.725,
     "Flocculation": "Medium"
   },
   {
@@ -1606,8 +1784,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 72F",
-    "Attenuation": "76.00%",
+    "MinTemp": 20,
+    "MaxTemp": 22,
+    "Attenuation": 0.76,
     "Flocculation": "Medium"
   },
   {
@@ -1615,8 +1794,9 @@
     "Lab": "White Labs",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "68F - 72F",
-    "Attenuation": "74.00%",
+    "MinTemp": 20,
+    "MaxTemp": 22,
+    "Attenuation": 0.74,
     "Flocculation": "Low"
   },
   {
@@ -1624,8 +1804,9 @@
     "Lab": "White Labs",
     "Type": "Wheat",
     "Form": "Liquid",
-    "Temp": "68F - 72F",
-    "Attenuation": "76.50%",
+    "MinTemp": 20,
+    "MaxTemp": 22,
+    "Attenuation": 0.765,
     "Flocculation": "Medium"
   },
   {
@@ -1633,8 +1814,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 72F",
-    "Attenuation": "78.50%",
+    "MinTemp": 20,
+    "MaxTemp": 22,
+    "Attenuation": 0.785,
     "Flocculation": "Medium"
   },
   {
@@ -1642,8 +1824,9 @@
     "Lab": "The Yeast Bay",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 72F",
-    "Attenuation": "78.50%",
+    "MinTemp": 20,
+    "MaxTemp": 22,
+    "Attenuation": 0.785,
     "Flocculation": "Low"
   },
   {
@@ -1651,8 +1834,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 73F",
-    "Attenuation": "76.50%",
+    "MinTemp": 20,
+    "MaxTemp": 23,
+    "Attenuation": 0.765,
     "Flocculation": "High"
   },
   {
@@ -1660,8 +1844,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 73F",
-    "Attenuation": "72.50%",
+    "MinTemp": 20,
+    "MaxTemp": 23,
+    "Attenuation": 0.725,
     "Flocculation": "Low"
   },
   {
@@ -1669,8 +1854,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 73F",
-    "Attenuation": "72.00%",
+    "MinTemp": 20,
+    "MaxTemp": 23,
+    "Attenuation": 0.72,
     "Flocculation": "Medium"
   },
   {
@@ -1678,17 +1864,19 @@
     "Lab": "The Yeast Bay",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 73F",
-    "Attenuation": "79.00%",
-    "Flocculation": "Medium Low"
+    "MinTemp": 20,
+    "MaxTemp": 23,
+    "Attenuation": 0.79,
+    "Flocculation": "Medium"
   },
   {
     "Name": "WLP862 Cry Havoc",
     "Lab": "White Labs",
     "Type": "Lager",
     "Form": "Liquid",
-    "Temp": "68F - 74F",
-    "Attenuation": "68.00%",
+    "MinTemp": 20,
+    "MaxTemp": 23,
+    "Attenuation": 0.68,
     "Flocculation": "Medium"
   },
   {
@@ -1696,8 +1884,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 75F",
-    "Attenuation": "70.00%",
+    "MinTemp": 20,
+    "MaxTemp": 24,
+    "Attenuation": 0.7,
     "Flocculation": "Medium"
   },
   {
@@ -1705,8 +1894,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 75F",
-    "Attenuation": "75.50%",
+    "MinTemp": 20,
+    "MaxTemp": 24,
+    "Attenuation": 0.755,
     "Flocculation": "Low"
   },
   {
@@ -1714,8 +1904,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 75F",
-    "Attenuation": "77.00%",
+    "MinTemp": 20,
+    "MaxTemp": 24,
+    "Attenuation": 0.77,
     "Flocculation": "Medium"
   },
   {
@@ -1723,8 +1914,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 78F",
-    "Attenuation": "81.50%",
+    "MinTemp": 20,
+    "MaxTemp": 26,
+    "Attenuation": 0.815,
     "Flocculation": "Medium"
   },
   {
@@ -1732,8 +1924,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 78F",
-    "Attenuation": "81.50%",
+    "MinTemp": 20,
+    "MaxTemp": 26,
+    "Attenuation": 0.815,
     "Flocculation": "Medium"
   },
   {
@@ -1741,8 +1934,9 @@
     "Lab": "The Yeast Bay",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 78F",
-    "Attenuation": "84.50%",
+    "MinTemp": 20,
+    "MaxTemp": 26,
+    "Attenuation": 0.845,
     "Flocculation": "Medium"
   },
   {
@@ -1750,17 +1944,19 @@
     "Lab": "The Yeast Bay",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "68F - 80F",
-    "Attenuation": "79.00%",
-    "Flocculation": "Medium Low"
+    "MinTemp": 20,
+    "MaxTemp": 27,
+    "Attenuation": 0.79,
+    "Flocculation": "Medium"
   },
   {
     "Name": "WLP099 Super High Gravity Ale",
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "69F - 74F",
-    "Attenuation": "82.00%",
+    "MinTemp": 21,
+    "MaxTemp": 23,
+    "Attenuation": 0.82,
     "Flocculation": "Low"
   },
   {
@@ -1768,17 +1964,19 @@
     "Lab": "The Yeast Bay",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "70F - 76F",
-    "Attenuation": "92.50%",
-    "Flocculation": "Medium Hig"
+    "MinTemp": 21,
+    "MaxTemp": 24,
+    "Attenuation": 0.925,
+    "Flocculation": "Medium"
   },
   {
     "Name": "WLP568 Belgian Style Saison Ale Yeast Blend",
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "70F - 80F",
-    "Attenuation": "75.00%",
+    "MinTemp": 21,
+    "MaxTemp": 27,
+    "Attenuation": 0.75,
     "Flocculation": "Medium"
   },
   {
@@ -1786,8 +1984,9 @@
     "Lab": "White Labs",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "70F - 84.9F",
-    "Attenuation": "85.00%",
+    "MinTemp": 21,
+    "MaxTemp": 29,
+    "Attenuation": 0.85,
     "Flocculation": "Low"
   },
   {
@@ -1795,8 +1994,9 @@
     "Lab": "Wyeast",
     "Type": "Ale",
     "Form": "Liquid",
-    "Temp": "70F - 95F",
-    "Attenuation": "78.00%",
+    "MinTemp": 21,
+    "MaxTemp": 35,
+    "Attenuation": 0.78,
     "Flocculation": "Low"
   }
 ]
