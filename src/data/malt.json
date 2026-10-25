@@ -1,0 +1,1016 @@
+[
+  {
+    "Grain": "Caramel / Crystal 60L",
+    "Origin": "American",
+    "Color": 60,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Carapils (Dextrine Malt)",
+    "Origin": "American",
+    "Color": 1.8,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Pale 2-Row",
+    "Origin": "American",
+    "Color": 1.8,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Pale 6-Row",
+    "Origin": "American",
+    "Color": 1.8,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "White Wheat",
+    "Origin": "American",
+    "Color": 2.8,
+    "Potential": 1.039
+  },
+  {
+    "Grain": "CaraHell",
+    "Origin": "German",
+    "Color": 11,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "CaraMunich III",
+    "Origin": "German",
+    "Color": 57,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Munich Light",
+    "Origin": "German",
+    "Color": 6,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Crystal 60L",
+    "Origin": "United Kingdom",
+    "Color": 60,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Maris Otter Pale",
+    "Origin": "United Kingdom",
+    "Color": 3.75,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Roasted Barley",
+    "Origin": "United Kingdom",
+    "Color": 550,
+    "Potential": 1.025
+  },
+  {
+    "Grain": "Roasted Barley",
+    "Origin": "US",
+    "Color": 300,
+    "Potential": 1.025
+  },
+  {
+    "Grain": "CHATEAU SPELT",
+    "Origin": "Belgium",
+    "Color": 3.55,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Munich I (Weyermann)",
+    "Origin": "Germany",
+    "Color": 7,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Pilsen (BestMalz)",
+    "Origin": "Germany",
+    "Color": 1,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Wheat, Roasted",
+    "Origin": "Germany",
+    "Color": 425,
+    "Potential": 1.025
+  },
+  {
+    "Grain": "Barley, Roasted",
+    "Origin": "US",
+    "Color": 300,
+    "Potential": 1.025
+  },
+  {
+    "Grain": "Black (Patent) Malt",
+    "Origin": "US",
+    "Color": 500,
+    "Potential": 1.025
+  },
+  {
+    "Grain": "Black Barley (Stout)",
+    "Origin": "US",
+    "Color": 500,
+    "Potential": 1.025
+  },
+  {
+    "Grain": "Blackprinz Malt",
+    "Origin": "US",
+    "Color": 500,
+    "Potential": 1.025
+  },
+  {
+    "Grain": "Roasted Barley",
+    "Origin": "US",
+    "Color": 300,
+    "Potential": 1.025
+  },
+  {
+    "Grain": "Roasted Barley",
+    "Origin": "US",
+    "Color": 500,
+    "Potential": 1.025
+  },
+  {
+    "Grain": "Acid Malt",
+    "Origin": "Germany",
+    "Color": 3,
+    "Potential": 1.027
+  },
+  {
+    "Grain": "Pale Chocolate",
+    "Origin": "UK",
+    "Color": 225,
+    "Potential": 1.028
+  },
+  {
+    "Grain": "Barley, Raw",
+    "Origin": "US",
+    "Color": 2,
+    "Potential": 1.028
+  },
+  {
+    "Grain": "Chocolate Malt",
+    "Origin": "US",
+    "Color": 350,
+    "Potential": 1.028
+  },
+  {
+    "Grain": "Chocolate Malt (Muntons)",
+    "Origin": "US",
+    "Color": 385,
+    "Potential": 1.028
+  },
+  {
+    "Grain": "Chocolate Malt, Pale",
+    "Origin": "US",
+    "Color": 225,
+    "Potential": 1.028
+  },
+  {
+    "Grain": "Pilsner malt, 400 degrees for 50 minutes",
+    "Origin": "US",
+    "Color": 200,
+    "Potential": 1.028
+  },
+  {
+    "Grain": "Rye Malt",
+    "Origin": "US",
+    "Color": 4.7,
+    "Potential": 1.029
+  },
+  {
+    "Grain": "Chocolate (Dingemans)",
+    "Origin": "Belgium",
+    "Color": 340,
+    "Potential": 1.03
+  },
+  {
+    "Grain": "Special B (Dingemans)",
+    "Origin": "Belgium",
+    "Color": 147.5,
+    "Potential": 1.03
+  },
+  {
+    "Grain": "Special B Malt",
+    "Origin": "Belgium",
+    "Color": 180,
+    "Potential": 1.03
+  },
+  {
+    "Grain": "Home Roasted Pilsner",
+    "Origin": "Florida",
+    "Color": 200,
+    "Potential": 1.03
+  },
+  {
+    "Grain": "Acidulated (Weyermann)",
+    "Origin": "Germany",
+    "Color": 1.8,
+    "Potential": 1.03
+  },
+  {
+    "Grain": "Chocolate Rye Malt",
+    "Origin": "Germany",
+    "Color": 250,
+    "Potential": 1.031
+  },
+  {
+    "Grain": "Carafa I",
+    "Origin": "Germany",
+    "Color": 337,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Carafa II",
+    "Origin": "Germany",
+    "Color": 412,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Carafa III",
+    "Origin": "Germany",
+    "Color": 525,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Oats, Golden Naked (Simpsons)",
+    "Origin": "UK",
+    "Color": 10,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Brown Malt",
+    "Origin": "United Kingdom",
+    "Color": 65,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Barley, Flaked",
+    "Origin": "US",
+    "Color": 1.7,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Black Barley (Briess)",
+    "Origin": "US",
+    "Color": 500,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Caramel Malt - 120L (Briess)",
+    "Origin": "US",
+    "Color": 120,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Crystal 40, 2-Row, (Great Western)",
+    "Origin": "US",
+    "Color": 40,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Crystal 60, 2-Row, (Great Western)",
+    "Origin": "US",
+    "Color": 60,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Rice, Flaked",
+    "Origin": "US",
+    "Color": 1,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Rice, Flaked (Briess)",
+    "Origin": "US",
+    "Color": 1,
+    "Potential": 1.032
+  },
+  {
+    "Grain": "Caramunich Malt",
+    "Origin": "Belgium",
+    "Color": 56,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Brumalt",
+    "Origin": "Germany",
+    "Color": 23,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Chocolate Wheat Malt",
+    "Origin": "Germany",
+    "Color": 400,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Pale Chocolate Malt",
+    "Origin": "UK",
+    "Color": 250,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Home Toasted/Roasted Munich Malt",
+    "Origin": "United Kingdom",
+    "Color": 27,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Toasted Malt",
+    "Origin": "United Kingdom",
+    "Color": 27,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Blackprinz Malt (Briess)",
+    "Origin": "US",
+    "Color": 500,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Cara-Pils/Dextrine",
+    "Origin": "US",
+    "Color": 2,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Carafoam",
+    "Origin": "US",
+    "Color": 2,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Caramel Malt - 80L 6-Row (Briess)",
+    "Origin": "US",
+    "Color": 80,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Caramel/Crystal Malt -120L",
+    "Origin": "US",
+    "Color": 120,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Light Roasted Barley (Briess)",
+    "Origin": "US",
+    "Color": 300,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Rye, Flaked (Briess)",
+    "Origin": "US",
+    "Color": 4.6,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Special Roast",
+    "Origin": "US",
+    "Color": 50,
+    "Potential": 1.033
+  },
+  {
+    "Grain": "Caravienne Malt",
+    "Origin": "Belgium",
+    "Color": 22,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Chocolate Malt",
+    "Origin": "United Kingdom",
+    "Color": 450,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Chocolate Malt (Thomas Fawcett)",
+    "Origin": "United Kingdom",
+    "Color": 508,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Crystal Malt - 60L (Thomas Fawcett)",
+    "Origin": "United Kingdom",
+    "Color": 60,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Peat Smoked Malt",
+    "Origin": "United Kingdom",
+    "Color": 2.8,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Caramel/Crystal Malt - 40L",
+    "Origin": "US",
+    "Color": 40,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Caramel/Crystal Malt - 60L",
+    "Origin": "US",
+    "Color": 60,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Caramel/Crystal Malt - 80L",
+    "Origin": "US",
+    "Color": 80,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Caramel/Crystal Malt - 90L",
+    "Origin": "US",
+    "Color": 90,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Carapils (Briess)",
+    "Origin": "US",
+    "Color": 1.5,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Carapils 6-Row (Briess)",
+    "Origin": "US",
+    "Color": 1.3,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Crisp Crystal 77L",
+    "Origin": "US",
+    "Color": 77,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Victory Malt",
+    "Origin": "US",
+    "Color": 25,
+    "Potential": 1.034
+  },
+  {
+    "Grain": "Special B (Castle Malting)",
+    "Origin": "Belgien",
+    "Color": 152.28,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Caraaroma",
+    "Origin": "Germany",
+    "Color": 130,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Caramel Wheat Malt",
+    "Origin": "Germany",
+    "Color": 46,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Munich (BestMalz)",
+    "Origin": "Germany",
+    "Color": 7.61,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Munich Dark (BestMalz)",
+    "Origin": "Germany",
+    "Color": 12.69,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Vienna (BestMalz)",
+    "Origin": "Germany",
+    "Color": 4.06,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Crystal, Dark (Simpsons)",
+    "Origin": "UK",
+    "Color": 80,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Crystal, Extra Dark (Simpsons)",
+    "Origin": "UK",
+    "Color": 160,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Crystal, Medium (Simpsons)",
+    "Origin": "UK",
+    "Color": 55,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Amber Malt",
+    "Origin": "United Kingdom",
+    "Color": 22,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Crystal 70/80L",
+    "Origin": "United Kingdom",
+    "Color": 75,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Caraamber",
+    "Origin": "US",
+    "Color": 30,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Caramel/Crystal Malt - 10L",
+    "Origin": "US",
+    "Color": 10,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Caramel/Crystal Malt - 150L",
+    "Origin": "US",
+    "Color": 150,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Caramel/Crystal Malt - 15L",
+    "Origin": "US",
+    "Color": 15,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Caramel/Crystal Malt - 20L",
+    "Origin": "US",
+    "Color": 20,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Caramel/Crystal Malt - 30L",
+    "Origin": "US",
+    "Color": 30,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Carared",
+    "Origin": "US",
+    "Color": 20,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Chocolate (Briess)",
+    "Origin": "US",
+    "Color": 350,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Munich 10L (Briess)",
+    "Origin": "US",
+    "Color": 7,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Munich 10L (Briess)",
+    "Origin": "US",
+    "Color": 10,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Munich 10L (Gambrinus)",
+    "Origin": "US",
+    "Color": 10,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Munich Malt - 10L",
+    "Origin": "US",
+    "Color": 10,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Munich Malt - 20L",
+    "Origin": "US",
+    "Color": 20,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Pale Malt (6 Row) US",
+    "Origin": "US",
+    "Color": 2,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Pilsner malt, 300 degrees for 25 minutes",
+    "Origin": "US",
+    "Color": 20,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Wheat, Flaked",
+    "Origin": "US",
+    "Color": 1.6,
+    "Potential": 1.035
+  },
+  {
+    "Grain": "Biscuit Malt",
+    "Origin": "Belgian",
+    "Color": 23,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Aromatic Malt",
+    "Origin": "Belgium",
+    "Color": 26,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Pilsner (2 Row) Belgian",
+    "Origin": "Belgium",
+    "Color": 2,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "MFB Pilsen",
+    "Origin": "France",
+    "Color": 1.8,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Carafa I (Weyermann)",
+    "Origin": "Germany",
+    "Color": 320,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Carafa Special I (Weyermann)",
+    "Origin": "Germany",
+    "Color": 320,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Carafa Special II (Weyermann)",
+    "Origin": "Germany",
+    "Color": 415,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Caramunich I (Weyermann)",
+    "Origin": "Germany",
+    "Color": 34.5,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Caramunich I (Weyermann)",
+    "Origin": "Germany",
+    "Color": 51,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Pilsen (BestMalz)",
+    "Origin": "Germany",
+    "Color": 1.52,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "RedX (BestMalz)",
+    "Origin": "Germany",
+    "Color": 15.23,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Vienna Malt",
+    "Origin": "Germany",
+    "Color": 3.5,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Maris Otter Malt (Muntons)",
+    "Origin": "United Kingdom",
+    "Color": 3,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Pale Malt (2 Row) UK",
+    "Origin": "United Kingdom",
+    "Color": 3,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Pilsner (2 Row) UK",
+    "Origin": "United Kingdom",
+    "Color": 1,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Barley, Torrefied",
+    "Origin": "US",
+    "Color": 1.7,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Brewers Malt 6-Row (Briess)",
+    "Origin": "US",
+    "Color": 1.8,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Pale Ale Malt",
+    "Origin": "US",
+    "Color": 3.5,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Pale Malt (2 Row) US",
+    "Origin": "US",
+    "Color": 2,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Pale Malt (2 Row), NW Pale",
+    "Origin": "US",
+    "Color": 2,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Rye, Flaked",
+    "Origin": "US",
+    "Color": 2,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Rye, Flaked (toasted)",
+    "Origin": "US",
+    "Color": 10,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Vienna Malt (Briess)",
+    "Origin": "US",
+    "Color": 3.5,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Wheat, Torrified",
+    "Origin": "US",
+    "Color": 1.7,
+    "Potential": 1.036
+  },
+  {
+    "Grain": "Pale Malt (2 Row) Belgian",
+    "Origin": "Belgium",
+    "Color": 3,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Pilsen (Dingemans)",
+    "Origin": "Belgium",
+    "Color": 1.6,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Wheat Malt, Bel",
+    "Origin": "Belgium",
+    "Color": 2,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Honey Malt",
+    "Origin": "Canada",
+    "Color": 25,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Munich Malt (Great Western)",
+    "Origin": "Canada",
+    "Color": 9,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Caramunich III (Weyermann)",
+    "Origin": "Germany",
+    "Color": 71,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Kolsch Malt",
+    "Origin": "Germany",
+    "Color": 4.5,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Melanoiden Malt",
+    "Origin": "Germany",
+    "Color": 20,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Melanoidin (Weyermann)",
+    "Origin": "Germany",
+    "Color": 27,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Melanoidin (Weyermann)",
+    "Origin": "Germany",
+    "Color": 30,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Munich Malt",
+    "Origin": "Germany",
+    "Color": 9,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Munich Malt, Light (Weyermann)",
+    "Origin": "Germany",
+    "Color": 5.5,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Pilsner (2 Row) German",
+    "Origin": "Germany",
+    "Color": 2,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Pilsner Malt (Avangard)",
+    "Origin": "Germany",
+    "Color": 3.5,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Pilsner Malt (Avangard)",
+    "Origin": "Germany",
+    "Color": 1.7,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Smoked Malt",
+    "Origin": "Germany",
+    "Color": 9,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Two-Row Pale Malt",
+    "Origin": "Pale Moon, Alamosa CO",
+    "Color": 3,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Mild Malt",
+    "Origin": "United Kingdom",
+    "Color": 4,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Pale Malt, Golden Promise",
+    "Origin": "United Kingdom",
+    "Color": 2.5,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Pale Malt, Halcyon",
+    "Origin": "United Kingdom",
+    "Color": 2.5,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Thomas Fawcett Maris Otter",
+    "Origin": "United Kingdom",
+    "Color": 3,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Corn, Flaked",
+    "Origin": "US",
+    "Color": 1.3,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Oats, Flaked",
+    "Origin": "US",
+    "Color": 1,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Oats, Flaked (toasted)",
+    "Origin": "US",
+    "Color": 15,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Oats, Malted",
+    "Origin": "US",
+    "Color": 1,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Pale Ale Malt 2-Row (Briess)",
+    "Origin": "US",
+    "Color": 3.5,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Pale Ale Malt, Full Pint (Great Western)",
+    "Origin": "US",
+    "Color": 2.25,
+    "Potential": 1.037
+  },
+  {
+    "Grain": "Honey Malt (Gambrinus)",
+    "Origin": "Canada",
+    "Color": 25,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Munich I (Weyermann)",
+    "Origin": "Germany",
+    "Color": 7.1,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Pilsner (Weyermann)",
+    "Origin": "Germany",
+    "Color": 1.7,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Vienna Malt (Weyermann)",
+    "Origin": "Germany",
+    "Color": 3,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Vienna Malt (Avangard)",
+    "Origin": "Germnay",
+    "Color": 3,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Golden Promise (Simpsons)",
+    "Origin": "UK",
+    "Color": 2,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Maris Otter (Crisp)",
+    "Origin": "United Kingdom",
+    "Color": 4,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Pale Malt, Golden Promise (Thomas Fawcett)",
+    "Origin": "United Kingdom",
+    "Color": 3,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Pale Malt, Maris Otter",
+    "Origin": "United Kingdom",
+    "Color": 3,
+    "Potential": 1.038
+  },
+  {
+    "Grain": "Wheat Malt, Dark",
+    "Origin": "Germany",
+    "Color": 9,
+    "Potential": 1.039
+  },
+  {
+    "Grain": "Wheat Malt, Ger",
+    "Origin": "Germany",
+    "Color": 2,
+    "Potential": 1.039
+  },
+  {
+    "Grain": "Wheat Malt, White (Rahr)",
+    "Origin": "U.S.",
+    "Color": 4,
+    "Potential": 1.039
+  },
+  {
+    "Grain": "Corn - Yellow, Flaked (Briess)",
+    "Origin": "US",
+    "Color": 1.3,
+    "Potential": 1.039
+  },
+  {
+    "Grain": "Wheat - White Malt (Briess)",
+    "Origin": "US",
+    "Color": 2.3,
+    "Potential": 1.039
+  },
+  {
+    "Grain": "Wheat Malt, White",
+    "Origin": "US",
+    "Color": 2.4,
+    "Potential": 1.04
+  },
+  {
+    "Grain": "White Wheat Malt",
+    "Origin": "US",
+    "Color": 2.4,
+    "Potential": 1.04
+  }
+]

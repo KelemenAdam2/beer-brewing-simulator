@@ -1,0 +1,744 @@
+[
+  {
+    "Hop": "Australian Summer",
+    "Origin": "Australia",
+    "Type": "Aroma",
+    "Alpha": 6,
+    "Beta": 5.45
+  },
+  {
+    "Hop": "Feux Coeur Francais",
+    "Origin": "Australia",
+    "Type": "Bittering",
+    "Alpha": 14,
+    "Beta": 6
+  },
+  {
+    "Hop": "Galaxy",
+    "Origin": "Australia",
+    "Type": "Bittering",
+    "Alpha": 14,
+    "Beta": 5.9
+  },
+  {
+    "Hop": "Pride of Ringwood",
+    "Origin": "Australia",
+    "Type": "Bittering",
+    "Alpha": 9,
+    "Beta": 5.75
+  },
+  {
+    "Hop": "Super Pride",
+    "Origin": "Australia",
+    "Type": "Bittering",
+    "Alpha": 14.25,
+    "Beta": 6.7
+  },
+  {
+    "Hop": "Topaz",
+    "Origin": "Australia",
+    "Type": "Bittering",
+    "Alpha": 17,
+    "Beta": 6.5
+  },
+  {
+    "Hop": "Victoria",
+    "Origin": "Australia",
+    "Type": "Bittering",
+    "Alpha": 13,
+    "Beta": 6.25
+  },
+  {
+    "Hop": "Goldings, B.C.",
+    "Origin": "Canada",
+    "Type": "Aroma",
+    "Alpha": 5,
+    "Beta": 3.2
+  },
+  {
+    "Hop": "Premiant",
+    "Origin": "Czech Republic",
+    "Type": "Both",
+    "Alpha": 7.5,
+    "Beta": 4.5
+  },
+  {
+    "Hop": "Saaz",
+    "Origin": "Czech Republic",
+    "Type": "Aroma",
+    "Alpha": 4,
+    "Beta": 3.5
+  },
+  {
+    "Hop": "Sladek",
+    "Origin": "Czech Republic",
+    "Type": "Aroma",
+    "Alpha": 5,
+    "Beta": 7.5
+  },
+  {
+    "Hop": "Strisslespalt",
+    "Origin": "France",
+    "Type": "Aroma",
+    "Alpha": 4,
+    "Beta": 3.8
+  },
+  {
+    "Hop": "Hallertauer",
+    "Origin": "Germany",
+    "Type": "Aroma",
+    "Alpha": 4.8,
+    "Beta": 4
+  },
+  {
+    "Hop": "Hallertauer Hersbrucker",
+    "Origin": "Germany",
+    "Type": "Aroma",
+    "Alpha": 4,
+    "Beta": 6
+  },
+  {
+    "Hop": "Hallertauer Mittelfrueh",
+    "Origin": "Germany",
+    "Type": "Aroma",
+    "Alpha": 4,
+    "Beta": 4.6
+  },
+  {
+    "Hop": "Magnum",
+    "Origin": "Germany",
+    "Type": "Bittering",
+    "Alpha": 14,
+    "Beta": 6.5
+  },
+  {
+    "Hop": "Northern Brewer",
+    "Origin": "Germany",
+    "Type": "Both",
+    "Alpha": 8.5,
+    "Beta": 4
+  },
+  {
+    "Hop": "Opal",
+    "Origin": "Germany",
+    "Type": "Aroma",
+    "Alpha": 6.5,
+    "Beta": 4.5
+  },
+  {
+    "Hop": "Orion",
+    "Origin": "Germany",
+    "Type": "Both",
+    "Alpha": 7.25,
+    "Beta": 3.7
+  },
+  {
+    "Hop": "Perle",
+    "Origin": "Germany",
+    "Type": "Bittering",
+    "Alpha": 8,
+    "Beta": 4.75
+  },
+  {
+    "Hop": "Saphir",
+    "Origin": "Germany",
+    "Type": "Aroma",
+    "Alpha": 3.5,
+    "Beta": 4.6
+  },
+  {
+    "Hop": "Select Spalt",
+    "Origin": "Germany",
+    "Type": "Aroma",
+    "Alpha": 4.75,
+    "Beta": 3.5
+  },
+  {
+    "Hop": "Spalter",
+    "Origin": "Germany",
+    "Type": "Aroma",
+    "Alpha": 4.5,
+    "Beta": 4
+  },
+  {
+    "Hop": "Tettnang",
+    "Origin": "Germany",
+    "Type": "Aroma",
+    "Alpha": 4.5,
+    "Beta": 3.5
+  },
+  {
+    "Hop": "Tradition",
+    "Origin": "Germany",
+    "Type": "Bittering",
+    "Alpha": 6,
+    "Beta": 4.5
+  },
+  {
+    "Hop": "Sorachi Ace",
+    "Origin": "Japan",
+    "Type": "Bittering",
+    "Alpha": 12,
+    "Beta": 6
+  },
+  {
+    "Hop": "Green Bullet",
+    "Origin": "New Zealand",
+    "Type": "Bittering",
+    "Alpha": 13.5,
+    "Beta": 7
+  },
+  {
+    "Hop": "Hallertauer, New Zealand",
+    "Origin": "New Zealand",
+    "Type": "Both",
+    "Alpha": 8.5,
+    "Beta": 3
+  },
+  {
+    "Hop": "Motueka",
+    "Origin": "New Zealand",
+    "Type": "Aroma",
+    "Alpha": 7,
+    "Beta": 5.25
+  },
+  {
+    "Hop": "Nelson Sauvin",
+    "Origin": "New Zealand",
+    "Type": "Bittering",
+    "Alpha": 12,
+    "Beta": 7
+  },
+  {
+    "Hop": "Pacific Gem",
+    "Origin": "New Zealand",
+    "Type": "Bittering",
+    "Alpha": 15,
+    "Beta": 8.2
+  },
+  {
+    "Hop": "Pacific Jade",
+    "Origin": "New Zealand",
+    "Type": "Bittering",
+    "Alpha": 13,
+    "Beta": 7.5
+  },
+  {
+    "Hop": "Pacifica",
+    "Origin": "New Zealand",
+    "Type": "Aroma",
+    "Alpha": 5.5,
+    "Beta": 6
+  },
+  {
+    "Hop": "Riwaka",
+    "Origin": "New Zealand",
+    "Type": "Aroma",
+    "Alpha": 5.25,
+    "Beta": 4.5
+  },
+  {
+    "Hop": "Southern Cross",
+    "Origin": "New Zealand",
+    "Type": "Both",
+    "Alpha": 13,
+    "Beta": 6.2
+  },
+  {
+    "Hop": "Sticklebract",
+    "Origin": "New Zealand",
+    "Type": "Both",
+    "Alpha": 13.5,
+    "Beta": 8
+  },
+  {
+    "Hop": "Super Alpha",
+    "Origin": "New Zealand",
+    "Type": "Bittering",
+    "Alpha": 13,
+    "Beta": 8
+  },
+  {
+    "Hop": "Lublin",
+    "Origin": "Poland",
+    "Type": "Bittering",
+    "Alpha": 5,
+    "Beta": 3
+  },
+  {
+    "Hop": "Marynka",
+    "Origin": "Poland",
+    "Type": "Bittering",
+    "Alpha": 10.5,
+    "Beta": 11.4
+  },
+  {
+    "Hop": "Atlas",
+    "Origin": "Slovenia",
+    "Type": "Bittering",
+    "Alpha": 9,
+    "Beta": 3.7
+  },
+  {
+    "Hop": "Aurora",
+    "Origin": "Slovenia",
+    "Type": "Both",
+    "Alpha": 8.25,
+    "Beta": 3.5
+  },
+  {
+    "Hop": "Bobek",
+    "Origin": "Slovenia",
+    "Type": "Both",
+    "Alpha": 5.25,
+    "Beta": 5
+  },
+  {
+    "Hop": "Celeia",
+    "Origin": "Slovenia",
+    "Type": "Both",
+    "Alpha": 4.5,
+    "Beta": 2.6
+  },
+  {
+    "Hop": "Styrian Goldings",
+    "Origin": "Slovenia",
+    "Type": "Aroma",
+    "Alpha": 5.4,
+    "Beta": 2.9
+  },
+  {
+    "Hop": "Kent Goldings",
+    "Origin": "UK",
+    "Type": "Bittering",
+    "Alpha": 4.75,
+    "Beta": 2
+  },
+  {
+    "Hop": "Admiral",
+    "Origin": "United Kingdom",
+    "Type": "Bittering",
+    "Alpha": 14.75,
+    "Beta": 5.6
+  },
+  {
+    "Hop": "Bramling Cross",
+    "Origin": "United Kingdom",
+    "Type": "Aroma",
+    "Alpha": 6,
+    "Beta": 3
+  },
+  {
+    "Hop": "Brewer's Gold",
+    "Origin": "United Kingdom",
+    "Type": "Bittering",
+    "Alpha": 8,
+    "Beta": 3.7
+  },
+  {
+    "Hop": "Bullion",
+    "Origin": "United Kingdom",
+    "Type": "Bittering",
+    "Alpha": 8,
+    "Beta": 4.5
+  },
+  {
+    "Hop": "Challenger",
+    "Origin": "United Kingdom",
+    "Type": "Aroma",
+    "Alpha": 7.5,
+    "Beta": 4
+  },
+  {
+    "Hop": "Columbia",
+    "Origin": "United Kingdom",
+    "Type": "Bittering",
+    "Alpha": 5.5,
+    "Beta": 3
+  },
+  {
+    "Hop": "First Gold",
+    "Origin": "United Kingdom",
+    "Type": "Both",
+    "Alpha": 7.5,
+    "Beta": 3.5
+  },
+  {
+    "Hop": "Fuggles",
+    "Origin": "United Kingdom",
+    "Type": "Aroma",
+    "Alpha": 4.5,
+    "Beta": 2
+  },
+  {
+    "Hop": "Goldings, East Kent",
+    "Origin": "United Kingdom",
+    "Type": "Aroma",
+    "Alpha": 5,
+    "Beta": 3.5
+  },
+  {
+    "Hop": "Herald",
+    "Origin": "United Kingdom",
+    "Type": "Bittering",
+    "Alpha": 12,
+    "Beta": 5.2
+  },
+  {
+    "Hop": "Northdown",
+    "Origin": "United Kingdom",
+    "Type": "Both",
+    "Alpha": 8.5,
+    "Beta": 5.5
+  },
+  {
+    "Hop": "Phoenix",
+    "Origin": "United Kingdom",
+    "Type": "Bittering",
+    "Alpha": 8,
+    "Beta": 4.6
+  },
+  {
+    "Hop": "Pilgrim",
+    "Origin": "United Kingdom",
+    "Type": "Bittering",
+    "Alpha": 11.5,
+    "Beta": 4.7
+  },
+  {
+    "Hop": "Pilot",
+    "Origin": "United Kingdom",
+    "Type": "Bittering",
+    "Alpha": 11.5,
+    "Beta": 3
+  },
+  {
+    "Hop": "Pioneer",
+    "Origin": "United Kingdom",
+    "Type": "Both",
+    "Alpha": 9,
+    "Beta": 3.75
+  },
+  {
+    "Hop": "Progress",
+    "Origin": "United Kingdom",
+    "Type": "Aroma",
+    "Alpha": 6.25,
+    "Beta": 2.1
+  },
+  {
+    "Hop": "Target",
+    "Origin": "United Kingdom",
+    "Type": "Bittering",
+    "Alpha": 11,
+    "Beta": 5
+  },
+  {
+    "Hop": "Whitbread Golding Variety (WGV)",
+    "Origin": "United Kingdom",
+    "Type": "Aroma",
+    "Alpha": 6,
+    "Beta": 2.5
+  },
+  {
+    "Hop": "Zeus",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 14,
+    "Beta": 5
+  },
+  {
+    "Hop": "Ahtanum",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 6,
+    "Beta": 5.25
+  },
+  {
+    "Hop": "Amarillo",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 8.5,
+    "Beta": 6
+  },
+  {
+    "Hop": "Apollo",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 17,
+    "Beta": 6.75
+  },
+  {
+    "Hop": "Aquila",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 6.5,
+    "Beta": 3
+  },
+  {
+    "Hop": "Banner",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 10,
+    "Beta": 4
+  },
+  {
+    "Hop": "Bravo",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 15.5,
+    "Beta": 3.5
+  },
+  {
+    "Hop": "Cascade",
+    "Origin": "US",
+    "Type": "Both",
+    "Alpha": 5.5,
+    "Beta": 6
+  },
+  {
+    "Hop": "Centennial",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 10,
+    "Beta": 4
+  },
+  {
+    "Hop": "Chelan",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 13.25,
+    "Beta": 9.25
+  },
+  {
+    "Hop": "Chinook",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 13,
+    "Beta": 3.6
+  },
+  {
+    "Hop": "Citra",
+    "Origin": "US",
+    "Type": "Both",
+    "Alpha": 12,
+    "Beta": 4
+  },
+  {
+    "Hop": "Cluster",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 7,
+    "Beta": 4.8
+  },
+  {
+    "Hop": "Columbus (Tomahawk)",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 14,
+    "Beta": 5
+  },
+  {
+    "Hop": "Comet",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 9.5,
+    "Beta": 4
+  },
+  {
+    "Hop": "Crystal",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 3.5,
+    "Beta": 5.2
+  },
+  {
+    "Hop": "El Dorado",
+    "Origin": "US",
+    "Type": "Both",
+    "Alpha": 15,
+    "Beta": 7.5
+  },
+  {
+    "Hop": "Eroica",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 13,
+    "Beta": 4.8
+  },
+  {
+    "Hop": "Galena",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 12.5,
+    "Beta": 8
+  },
+  {
+    "Hop": "Glacier",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 5.6,
+    "Beta": 7.6
+  },
+  {
+    "Hop": "Greenburg",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 5.2,
+    "Beta": 7.2
+  },
+  {
+    "Hop": "Horizon",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 12,
+    "Beta": 7.5
+  },
+  {
+    "Hop": "Liberty",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 4.3,
+    "Beta": 3.5
+  },
+  {
+    "Hop": "Millenium",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 14.25,
+    "Beta": 5.7
+  },
+  {
+    "Hop": "Mosaic",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 12.7,
+    "Beta": 3.5
+  },
+  {
+    "Hop": "Mt. Hood",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 6,
+    "Beta": 6.3
+  },
+  {
+    "Hop": "Newport",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 13.5,
+    "Beta": 6
+  },
+  {
+    "Hop": "Nugget",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 13,
+    "Beta": 5
+  },
+  {
+    "Hop": "Olympic",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 11.5,
+    "Beta": 5.5
+  },
+  {
+    "Hop": "Palisade",
+    "Origin": "US",
+    "Type": "Both",
+    "Alpha": 7.5,
+    "Beta": 7
+  },
+  {
+    "Hop": "Santiam",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 6,
+    "Beta": 7
+  },
+  {
+    "Hop": "Satus",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 13.25,
+    "Beta": 8.75
+  },
+  {
+    "Hop": "Simcoe",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 13,
+    "Beta": 4.5
+  },
+  {
+    "Hop": "Sterling",
+    "Origin": "US",
+    "Type": "Both",
+    "Alpha": 7.5,
+    "Beta": 5
+  },
+  {
+    "Hop": "Summit",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 17,
+    "Beta": 5
+  },
+  {
+    "Hop": "Sun",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 14,
+    "Beta": 5.5
+  },
+  {
+    "Hop": "Super Galena",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 14.5,
+    "Beta": 9
+  },
+  {
+    "Hop": "Tillicum",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 13.25,
+    "Beta": 9.9
+  },
+  {
+    "Hop": "Tomahawk",
+    "Origin": "US",
+    "Type": "Bittering",
+    "Alpha": 15.5,
+    "Beta": 4.5
+  },
+  {
+    "Hop": "Ultra",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 3,
+    "Beta": 3.75
+  },
+  {
+    "Hop": "Vanguard",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 5.5,
+    "Beta": 6
+  },
+  {
+    "Hop": "Warrior",
+    "Origin": "US",
+    "Type": "Both",
+    "Alpha": 15,
+    "Beta": 4.75
+  },
+  {
+    "Hop": "Willamette",
+    "Origin": "US",
+    "Type": "Aroma",
+    "Alpha": 5.5,
+    "Beta": 3.5
+  }
+]

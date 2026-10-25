@@ -1,0 +1,1802 @@
+[
+  {
+    "Name": "S-23 SafLager West European Lager",
+    "Lab": "DCL/Fermentis",
+    "Type": "Lager",
+    "Form": "Dry",
+    "Temp": "46F - 50F",
+    "Attenuation": "73.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "2000 Budvar Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "46F - 56F",
+    "Attenuation": "73.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "2042 Danish Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "46F - 56F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2247 European Lager II",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "46F - 56F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "2206 Bavarian Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "46F - 58F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP860 Munich Helles",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "48F - 52F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0670 Swiss Lager",
+    "Lab": "Brewtek",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 54F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP833 German Bock Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 55F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2007 Pilsen Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 56F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2272 North American Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 56F",
+    "Attenuation": "73.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "2308 Munich Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 56F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "S-189 SafLager German Lager",
+    "Lab": "DCL/Fermentis",
+    "Type": "Lager",
+    "Form": "Dry",
+    "Temp": "48F - 56F",
+    "Attenuation": "72.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "2001 Urquell Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2035 American Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2124 Bohemian Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "71.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2178 Wyeast Lager Blend",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2633 Octoberfest Lager Blend",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "CL-0600 Original Pilsner",
+    "Lab": "Brewtek",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "75.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0620 American Megabrewery",
+    "Lab": "Brewtek",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0630 American Microbrewery Lager",
+    "Lab": "Brewtek",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0650 Old Bavarian Lager",
+    "Lab": "Brewtek",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0660 Northern German Lager",
+    "Lab": "Brewtek",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0680 East European Lager",
+    "Lab": "Brewtek",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 58F",
+    "Attenuation": "76.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "W-34/70 Saflager Lager",
+    "Lab": "DCL/Fermentis",
+    "Type": "Lager",
+    "Form": "Dry",
+    "Temp": "48F - 59F",
+    "Attenuation": "75.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "CL-0690 California Esteem (Gold)",
+    "Lab": "Brewtek",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "48F - 65F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-5200 Brettanomyces Lambicus",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "48F - 68F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-5600 Pediococcus Damnosus",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "48F - 68F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP800 Pilsner Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "74.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP802 Czech Budejovice Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "77.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP815 Belgian Lager Yeast",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP830 German Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "76.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP830 German Lager Yeast WLP830",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "82.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP838 Southern German Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "72.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP840 American Lager Yeast",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "77.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP840 American Lager Yeast WLP840",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "77.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP885 Zurich Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP920 Old Bavarian Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "69.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP940 Mexican Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 55F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2278 Czech Pilsner Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "50F - 58F",
+    "Attenuation": "72.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Y016 Lager Yeast",
+    "Lab": "Brewferm",
+    "Type": "Lager",
+    "Form": "Dry",
+    "Temp": "50F - 59F",
+    "Attenuation": "78.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Diamond Lager",
+    "Lab": "Lallemand",
+    "Type": "Lager",
+    "Form": "Dry",
+    "Temp": "50F - 59F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP820 Octoberfest/Marzen Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "52F - 58F",
+    "Attenuation": "69.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1007 German Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "55F - 66F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "CL-0900 Belgian Wheat",
+    "Lab": "Brewtek",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "55F - 68F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0920 German Wheat BT",
+    "Lab": "Brewtek",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "55F - 68F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0930 German Weiss",
+    "Lab": "Brewtek",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "55F - 68F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0980 American White Ale",
+    "Lab": "Brewtek",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "55F - 68F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "1728 Scottish Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "55F - 75F",
+    "Attenuation": "71.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "3763 Roselare Belgian Blend",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "55F - 80F",
+    "Attenuation": "80.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2565 Kolsch Yeast",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "56F - 64F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "CL-0010 American Microbrewery Ale #1",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "56F - 72F",
+    "Attenuation": "74.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0020 American Microbrewery Ale #2",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "56F - 72F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0060 Noth-Eastern Micro Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "56F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Nottingham",
+    "Lab": "Danstar",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "57F - 70F",
+    "Attenuation": "75.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP810 San Francisco Lager",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "58F - 65F",
+    "Attenuation": "67.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "1214 Belgian Ale Yeast",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "58F - 68F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "2112 California Lager",
+    "Lab": "Wyeast",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "58F - 68F",
+    "Attenuation": "69.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "1010 American Wheat 1010",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "58F - 74F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "1010 American Wheat Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "58F - 74F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "K-97 SafAle German Ale",
+    "Lab": "DCL/Fermentis",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "59F - 75.2F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "S-04 SafAle English Ale",
+    "Lab": "DCL/Fermentis",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "59F - 75.2F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "US-05 Safale American",
+    "Lab": "DCL/Fermentis",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "59F - 75F",
+    "Attenuation": "76.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WB-06 Safbrew Wheat",
+    "Lab": "DCL/Fermentis",
+    "Type": "Wheat",
+    "Form": "Dry",
+    "Temp": "59F - 75F",
+    "Attenuation": "68.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0200 Scottish Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 68F",
+    "Attenuation": "78.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "1450 Denny's Favorite 50",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 70F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "CL-0050 California Pub Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 70F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1028 London Ale Yeast",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1056 American Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1272 American Ale II",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 72F",
+    "Attenuation": "74.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "1272 GF All American Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 72F",
+    "Attenuation": "74.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "T-58 SafBrew Specialty Ale",
+    "Lab": "DCL/Fermentis",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "60F - 72F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "3112 Brettanomyces Bruxellensis",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 75F",
+    "Attenuation": "67.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "5112 Brettanomyces Bruxellensis",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 75F",
+    "Attenuation": "82.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "5526 Brettanomyces Lambucus",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 75F",
+    "Attenuation": "80.00%",
+    "Flocculation": "Very High"
+  },
+  {
+    "Name": "4335 Lactobacillus Delbrueckii",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 95F",
+    "Attenuation": "67.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "4733 Pediococcus Cerevisiae",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 95F",
+    "Attenuation": "67.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "5335 Lactobacillus",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "60F - 95F",
+    "Attenuation": "80.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1084 Irish Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1275 Thames Valley Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "77.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1338 European Ale Yeast",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "69.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "Cooper Ale",
+    "Lab": "Coopers",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Doric Ale",
+    "Lab": "Doric",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Edme Ale Yeast",
+    "Lab": "Edme",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Special Ale",
+    "Lab": "Glenbrew",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Nottingham Yeast",
+    "Lab": "Lallemand",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Very High"
+  },
+  {
+    "Name": "Windsor Yeast",
+    "Lab": "Lallemand",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Very High"
+  },
+  {
+    "Name": "Munton Fison Ale",
+    "Lab": "Munton-Fison",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0110 British Microbrewery Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0120 British Pale Ale #1",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0130 British Pale Ale #2",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0150 British Real Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "68.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0160 British Draft Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0170 Classic British Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0240 Irish Dry Stout",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "77.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0260 Canadian Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0300 Belgian Ale #1",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0320 Belgian Ale #2",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "CL-0340 Belgian Ale #3",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0380 Saison",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0400 Old German Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "CL-0450 Kolsch",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "62F - 72F",
+    "Attenuation": "76.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "3944 Belgian Witbier",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "62F - 75F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1026 British Cask Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "63F - 72F",
+    "Attenuation": "75.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1335 British Ale II",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "63F - 75F",
+    "Attenuation": "74.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "3278 Belgian Lambic Blend",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "63F - 75F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "3333 German Wheat",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "63F - 75F",
+    "Attenuation": "73.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "3463 Forbidden Fruit",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "63F - 76F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "Belle Saison",
+    "Lab": "Danstar",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "63F - 77F",
+    "Attenuation": "80.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "Y015 Blanche Ale Yeast",
+    "Lab": "Brewferm",
+    "Type": "Wheat",
+    "Form": "Dry",
+    "Temp": "64.4F - 73.4F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "London",
+    "Lab": "Danstar",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "64F - 70F",
+    "Attenuation": "72.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Manchester",
+    "Lab": "Danstar",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "64F - 70F",
+    "Attenuation": "72.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1087 Wyeast Ale Blend",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "64F - 72F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1098 British Ale Yeast",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "64F - 72F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1968 London ESB Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "64F - 72F",
+    "Attenuation": "69.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "1187 Ringwood Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "64F - 74F",
+    "Attenuation": "70.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "1318 London Ale III",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "64F - 74F",
+    "Attenuation": "73.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "1318 London Ale III 1318",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "64F - 74F",
+    "Attenuation": "73.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "3056 Bavarian Wheat Yeast",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "64F - 74F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "3942 Belgian Wheat Yeast",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "64F - 74F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1099 Whitbread Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "64F - 75F",
+    "Attenuation": "70.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "3068 Weihenstephan Weizen",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "64F - 75F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "3638 Bavarian Wheat",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "64F - 75F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "3787 Trappist High Gravity",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "64F - 78F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Belle Saison",
+    "Lab": "Danstar",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "64F - 90F",
+    "Attenuation": "82.50%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "WLP002 English Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 68F",
+    "Attenuation": "66.50%",
+    "Flocculation": "Very High"
+  },
+  {
+    "Name": "WLP004 Irish Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 68F",
+    "Attenuation": "71.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP041 Pacific Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 68F",
+    "Attenuation": "67.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP090 San Diego Super Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 68F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Very High"
+  },
+  {
+    "Name": "WLP090 San Diego Super Yeast WLP090",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 68F",
+    "Attenuation": "79.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Array American Hefeweizen Ale Yeast WLP320",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 69F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "WLP029 German Ale/Kolsch",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 69F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP036 Dusseldorf Alt Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 69F",
+    "Attenuation": "68.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP037 Yorkshire Square Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 69F",
+    "Attenuation": "70.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP320 American Hefeweizen Ale",
+    "Lab": "White Labs",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "65F - 69F",
+    "Attenuation": "72.50%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "WLP003 German Ale II",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 70F",
+    "Attenuation": "76.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP006 Bedford British Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 70F",
+    "Attenuation": "76.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP007 Dry English Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 70F",
+    "Attenuation": "75.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP009 Australian Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 70F",
+    "Attenuation": "72.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP011 European Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 70F",
+    "Attenuation": "67.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP028 Edinburgh Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 70F",
+    "Attenuation": "72.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP038 Manchester Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 70F",
+    "Attenuation": "72.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP080 Cream Ale Yeast Blend",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 70F",
+    "Attenuation": "77.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Array Northeast Ale ECY29",
+    "Lab": "East Coast Yeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 70F",
+    "Attenuation": "82.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "Munuch",
+    "Lab": "Lallemand",
+    "Type": "Wheat",
+    "Form": "Dry",
+    "Temp": "65F - 71F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP500 Trappist Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 72F",
+    "Attenuation": "77.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP645 Brettanomyces Claussenii",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 72F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP650 Brettanomyces Bruxellensis",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 72F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP653 Brettanomyces Lambicus",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 72F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP655 Belgian Sour Mix 1",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 72F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP675 Malolactic Bacteria",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 72F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP677 Lactobacillus Bacteria",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 72F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "S-33 SafBrew Ale",
+    "Lab": "DCL/Fermentis",
+    "Type": "Ale",
+    "Form": "Dry",
+    "Temp": "65F - 72F",
+    "Attenuation": "73.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP545 Belgian Strong Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 73F",
+    "Attenuation": "81.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "1332 Northwest Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 75F",
+    "Attenuation": "69.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "1388 Belgian Strong Ale",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 75F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "1762 Belgian Abbey II",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 75F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "3711 French Saison",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 77F",
+    "Attenuation": "80.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "3522 Belgian Ardennes",
+    "Lab": "Wyeast",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "65F - 85F",
+    "Attenuation": "74.00%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "5733 Pediococcus",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "65F - 95F",
+    "Attenuation": "80.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP025 Southwold Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 69F",
+    "Attenuation": "71.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP022 Essex Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 70F",
+    "Attenuation": "73.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP033 Klassic Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 70F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP039 Nottingham Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 70F",
+    "Attenuation": "77.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP051 California Ale V",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 70F",
+    "Attenuation": "72.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP351 Bavarian Weizen Yeast",
+    "Lab": "White Labs",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "66F - 70F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "WLP380 Hefeweizen IV Ale",
+    "Lab": "White Labs",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "66F - 70F",
+    "Attenuation": "76.50%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "Vermont Ale",
+    "Lab": "The Yeast Bay",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 70F",
+    "Attenuation": "78.50%",
+    "Flocculation": "Medium Low"
+  },
+  {
+    "Name": "WLP013 London Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 71F",
+    "Attenuation": "71.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP510 Bastogne Belgian Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 72F",
+    "Attenuation": "77.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP530 Abbey Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 72F",
+    "Attenuation": "77.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP540 Abbey IV Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 72F",
+    "Attenuation": "78.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "ECY29 North East Ale",
+    "Lab": "East Coast Yeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 72F",
+    "Attenuation": "81.00%",
+    "Flocculation": "Medium Low"
+  },
+  {
+    "Name": "CL-0270 Australian Ale",
+    "Lab": "Brewtek",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "66F - 76F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP026 Premium Bitter Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "67F - 70F",
+    "Attenuation": "72.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP515 Antwerp Ale Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "67F - 70F",
+    "Attenuation": "76.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP005 British Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "67F - 74F",
+    "Attenuation": "70.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP400 Belgian Wit Ale",
+    "Lab": "White Labs",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "67F - 74F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "WLP410 Belgian Wit II",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "67F - 74F",
+    "Attenuation": "72.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP060 American Ale Yeast Blend",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 72F",
+    "Attenuation": "76.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP300 Hefeweizen Ale",
+    "Lab": "White Labs",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "68F - 72F",
+    "Attenuation": "74.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "WLP630 Berliner Weisse Blend",
+    "Lab": "White Labs",
+    "Type": "Wheat",
+    "Form": "Liquid",
+    "Temp": "68F - 72F",
+    "Attenuation": "76.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP670 American Farmhouse Blend",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 72F",
+    "Attenuation": "78.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Vermont Ale Yeast",
+    "Lab": "The Yeast Bay",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 72F",
+    "Attenuation": "78.50%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "WLP001 California Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 73F",
+    "Attenuation": "76.50%",
+    "Flocculation": "High"
+  },
+  {
+    "Name": "WLP008 East Coast Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 73F",
+    "Attenuation": "72.50%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "WLP023 Burton Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 73F",
+    "Attenuation": "72.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Northeastern Abbey",
+    "Lab": "The Yeast Bay",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 73F",
+    "Attenuation": "79.00%",
+    "Flocculation": "Medium Low"
+  },
+  {
+    "Name": "WLP862 Cry Havoc",
+    "Lab": "White Labs",
+    "Type": "Lager",
+    "Form": "Liquid",
+    "Temp": "68F - 74F",
+    "Attenuation": "68.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP565 Belgian Saison I Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 75F",
+    "Attenuation": "70.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP570 Belgian Golden Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 75F",
+    "Attenuation": "75.50%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "WLP575 Belgian Style Ale Yeast Blend",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 75F",
+    "Attenuation": "77.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP550 Belgian Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 78F",
+    "Attenuation": "81.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP566 Belgian Saison II Yeast",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 78F",
+    "Attenuation": "81.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Wallonian Farmhouse",
+    "Lab": "The Yeast Bay",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 78F",
+    "Attenuation": "84.50%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "Saison Blend",
+    "Lab": "The Yeast Bay",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "68F - 80F",
+    "Attenuation": "79.00%",
+    "Flocculation": "Medium Low"
+  },
+  {
+    "Name": "WLP099 Super High Gravity Ale",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "69F - 74F",
+    "Attenuation": "82.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "Dry Belgian Ale",
+    "Lab": "The Yeast Bay",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "70F - 76F",
+    "Attenuation": "92.50%",
+    "Flocculation": "Medium Hig"
+  },
+  {
+    "Name": "WLP568 Belgian Style Saison Ale Yeast Blend",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "70F - 80F",
+    "Attenuation": "75.00%",
+    "Flocculation": "Medium"
+  },
+  {
+    "Name": "WLP644 Brettanomyces Bruxellensis Trois",
+    "Lab": "White Labs",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "70F - 84.9F",
+    "Attenuation": "85.00%",
+    "Flocculation": "Low"
+  },
+  {
+    "Name": "3724 Belgian Saison",
+    "Lab": "Wyeast",
+    "Type": "Ale",
+    "Form": "Liquid",
+    "Temp": "70F - 95F",
+    "Attenuation": "78.00%",
+    "Flocculation": "Low"
+  }
+]
