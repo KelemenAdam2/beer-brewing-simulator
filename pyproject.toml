@@ -1,0 +1,10 @@
+[project]
+name = "beer-brewing-simulator"
+version = "0.1.0"
+description = "Beer Brewing Simulator"
+dependencies = [
+    "PySide6"
+]
+
+[tool.pyside6-project]
+files = ["src/ui/form/mainwindow.py", "src/ui/form/form.ui"]
