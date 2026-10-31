@@ -316,126 +316,126 @@
   },
   {
     "Hop": "Admiral",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Bittering",
     "Alpha": 14.75,
     "Beta": 5.6
   },
   {
     "Hop": "Bramling Cross",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Aroma",
     "Alpha": 6,
     "Beta": 3
   },
   {
     "Hop": "Brewer's Gold",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Bittering",
     "Alpha": 8,
     "Beta": 3.7
   },
   {
     "Hop": "Bullion",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Bittering",
     "Alpha": 8,
     "Beta": 4.5
   },
   {
     "Hop": "Challenger",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Aroma",
     "Alpha": 7.5,
     "Beta": 4
   },
   {
     "Hop": "Columbia",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Bittering",
     "Alpha": 5.5,
     "Beta": 3
   },
   {
     "Hop": "First Gold",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Both",
     "Alpha": 7.5,
     "Beta": 3.5
   },
   {
     "Hop": "Fuggles",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Aroma",
     "Alpha": 4.5,
     "Beta": 2
   },
   {
     "Hop": "Goldings, East Kent",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Aroma",
     "Alpha": 5,
     "Beta": 3.5
   },
   {
     "Hop": "Herald",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Bittering",
     "Alpha": 12,
     "Beta": 5.2
   },
   {
     "Hop": "Northdown",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Both",
     "Alpha": 8.5,
     "Beta": 5.5
   },
   {
     "Hop": "Phoenix",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Bittering",
     "Alpha": 8,
     "Beta": 4.6
   },
   {
     "Hop": "Pilgrim",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Bittering",
     "Alpha": 11.5,
     "Beta": 4.7
   },
   {
     "Hop": "Pilot",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Bittering",
     "Alpha": 11.5,
     "Beta": 3
   },
   {
     "Hop": "Pioneer",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Both",
     "Alpha": 9,
     "Beta": 3.75
   },
   {
     "Hop": "Progress",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Aroma",
     "Alpha": 6.25,
     "Beta": 2.1
   },
   {
     "Hop": "Target",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Bittering",
     "Alpha": 11,
     "Beta": 5
   },
   {
     "Hop": "Whitbread Golding Variety (WGV)",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Type": "Aroma",
     "Alpha": 6,
     "Beta": 2.5

@@ -1,67 +1,67 @@
 [
   {
     "Grain": "Caramel / Crystal 60L",
-    "Origin": "American",
+    "Origin": "US",
     "Color": 60,
     "Potential": 1.034
   },
   {
     "Grain": "Carapils (Dextrine Malt)",
-    "Origin": "American",
+    "Origin": "US",
     "Color": 1.8,
     "Potential": 1.034
   },
   {
     "Grain": "Pale 2-Row",
-    "Origin": "American",
+    "Origin": "US",
     "Color": 1.8,
     "Potential": 1.037
   },
   {
     "Grain": "Pale 6-Row",
-    "Origin": "American",
+    "Origin": "US",
     "Color": 1.8,
     "Potential": 1.035
   },
   {
     "Grain": "White Wheat",
-    "Origin": "American",
+    "Origin": "US",
     "Color": 2.8,
     "Potential": 1.039
   },
   {
     "Grain": "CaraHell",
-    "Origin": "German",
+    "Origin": "Germany",
     "Color": 11,
     "Potential": 1.035
   },
   {
     "Grain": "CaraMunich III",
-    "Origin": "German",
+    "Origin": "Germany",
     "Color": 57,
     "Potential": 1.036
   },
   {
     "Grain": "Munich Light",
-    "Origin": "German",
+    "Origin": "Germany",
     "Color": 6,
     "Potential": 1.037
   },
   {
     "Grain": "Crystal 60L",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 60,
     "Potential": 1.034
   },
   {
     "Grain": "Maris Otter Pale",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 3.75,
     "Potential": 1.036
   },
   {
     "Grain": "Roasted Barley",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 550,
     "Potential": 1.025
   },
@@ -199,7 +199,7 @@
   },
   {
     "Grain": "Home Roasted Pilsner",
-    "Origin": "Florida",
+    "Origin": "US",
     "Color": 200,
     "Potential": 1.03
   },
@@ -241,7 +241,7 @@
   },
   {
     "Grain": "Brown Malt",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 65,
     "Potential": 1.032
   },
@@ -313,13 +313,13 @@
   },
   {
     "Grain": "Home Toasted/Roasted Munich Malt",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 27,
     "Potential": 1.033
   },
   {
     "Grain": "Toasted Malt",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 27,
     "Potential": 1.033
   },
@@ -379,25 +379,25 @@
   },
   {
     "Grain": "Chocolate Malt",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 450,
     "Potential": 1.034
   },
   {
     "Grain": "Chocolate Malt (Thomas Fawcett)",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 508,
     "Potential": 1.034
   },
   {
     "Grain": "Crystal Malt - 60L (Thomas Fawcett)",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 60,
     "Potential": 1.034
   },
   {
     "Grain": "Peat Smoked Malt",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 2.8,
     "Potential": 1.034
   },
@@ -451,7 +451,7 @@
   },
   {
     "Grain": "Special B (Castle Malting)",
-    "Origin": "Belgien",
+    "Origin": "Belgium",
     "Color": 152.28,
     "Potential": 1.035
   },
@@ -505,13 +505,13 @@
   },
   {
     "Grain": "Amber Malt",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 22,
     "Potential": 1.035
   },
   {
     "Grain": "Crystal 70/80L",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 75,
     "Potential": 1.035
   },
@@ -613,7 +613,7 @@
   },
   {
     "Grain": "Biscuit Malt",
-    "Origin": "Belgian",
+    "Origin": "Belgium",
     "Color": 23,
     "Potential": 1.036
   },
@@ -685,19 +685,19 @@
   },
   {
     "Grain": "Maris Otter Malt (Muntons)",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 3,
     "Potential": 1.036
   },
   {
     "Grain": "Pale Malt (2 Row) UK",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 3,
     "Potential": 1.036
   },
   {
     "Grain": "Pilsner (2 Row) UK",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 1,
     "Potential": 1.036
   },
@@ -853,31 +853,31 @@
   },
   {
     "Grain": "Two-Row Pale Malt",
-    "Origin": "Pale Moon, Alamosa CO",
+    "Origin": "US",
     "Color": 3,
     "Potential": 1.037
   },
   {
     "Grain": "Mild Malt",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 4,
     "Potential": 1.037
   },
   {
     "Grain": "Pale Malt, Golden Promise",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 2.5,
     "Potential": 1.037
   },
   {
     "Grain": "Pale Malt, Halcyon",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 2.5,
     "Potential": 1.037
   },
   {
     "Grain": "Thomas Fawcett Maris Otter",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 3,
     "Potential": 1.037
   },
@@ -943,7 +943,7 @@
   },
   {
     "Grain": "Vienna Malt (Avangard)",
-    "Origin": "Germnay",
+    "Origin": "Germany",
     "Color": 3,
     "Potential": 1.038
   },
@@ -955,19 +955,19 @@
   },
   {
     "Grain": "Maris Otter (Crisp)",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 4,
     "Potential": 1.038
   },
   {
     "Grain": "Pale Malt, Golden Promise (Thomas Fawcett)",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 3,
     "Potential": 1.038
   },
   {
     "Grain": "Pale Malt, Maris Otter",
-    "Origin": "United Kingdom",
+    "Origin": "UK",
     "Color": 3,
     "Potential": 1.038
   },
@@ -985,7 +985,7 @@
   },
   {
     "Grain": "Wheat Malt, White (Rahr)",
-    "Origin": "U.S.",
+    "Origin": "US",
     "Color": 4,
     "Potential": 1.039
   },
