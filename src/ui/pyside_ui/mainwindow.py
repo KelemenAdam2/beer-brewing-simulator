@@ -40,7 +40,7 @@ class MainWindow(QMainWindow):
         self.timeline_timer = QTimer(self)
         self.mashing_end = 12000
         self.boiling_end = 12000
-        self.fermenting_end = 6000
+        self.fermenting_end = 3000
 
         # Wire up data and events
         self.init_data()
@@ -207,6 +207,11 @@ class MainWindow(QMainWindow):
 
     def reset(self):
         self.recipe.reset()
+        self.mashing_end = 12000
+        self.boiling_end = 12000
+        self.fermenting_end = 3000
+        self.current_stage = 0
+        self.stage = 0
         self.ui.list_summary_malts.clear()
         self.ui.list_summary_hops.clear()
         self.ui.list_summary_yeast.clear()
@@ -282,6 +287,8 @@ class MainWindow(QMainWindow):
             self.recipe.add_hop(hop, weight, time)
             self.ui.list_summary_hops.addItem(f"{hop.name} ({weight}g, {time}min)")
             self.refresh_metrics()
+            self.boiling_end = max((h[2]*100 for h in self.recipe.hops), default=6000)
+            self.set_up_timeline()
 
     def on_add_yeast(self):
         row = self.ui.tbl_yeasts.currentRow()
@@ -301,8 +308,19 @@ class MainWindow(QMainWindow):
 
     def on_water_add(self):
         self.recipe.set_water(self.recipe.current_water + 1, self.stage)
-        self.ui.edit_summary_water.setText(str(self.recipe.current_water) + " L")
-        self.ui.lbl_mashing_water.setText(f"Water: {self.recipe.current_water:.1f}")
+        self.update_water_edit()
+
+    def on_water_sub(self):
+        self.recipe.set_water(max(0.0, self.recipe.current_water - 1), self.stage)
+        self.update_water_edit()
+
+    def update_water_edit(self):
+        self.ui.edit_summary_water.setText(f"{self.recipe.current_water:.1f} L")
+        if self.stage == 0:
+            self.ui.lbl_mashing_water.setText(f"Water: {self.recipe.current_water:.1f}")
+        elif self.stage == 1:
+            self.ui.lbl_boiling_water.setText(f"Water: {self.recipe.current_water:.1f}")
+            self.ui.lbl_boiling_og.setText(f"OG: {self.recipe.current_og:.3f}")
         self.refresh_metrics()
 
     def refresh_metrics(self):
@@ -368,41 +386,55 @@ class MainWindow(QMainWindow):
         self.manage_stages(self.stage - 1)
 
     def stop_stage(self):
-        self.current_stage += 1
         if self.stage == 0:
-            self.recipe.og = self.recipe.current_og
-            self.recipe.srm = self.recipe.current_srm
-            self.refresh_metrics()
-            self.mashing_end = self.ui.slider_timeline.value()
-            self.set_up_timeline()
+            self.recipe.stop_mashing()
+            self.mashing_end = max(1, self.ui.slider_timeline.value())
+            self.current_stage = max(self.current_stage, 1)
         elif self.stage == 1:
-            self.recipe.og = self.recipe.current_og
-            self.recipe.srm = self.recipe.current_srm
-            self.recipe.ibu = self.recipe.current_ibu
-            self.refresh_metrics()
-            self.boiling_end = self.ui.slider_timeline.value()
-            self.set_up_timeline()
+            self.recipe.stop_boiling()
+            self.boiling_end = max(1, self.ui.slider_timeline.value())
+            self.current_stage = max(self.current_stage, 2)
         elif self.stage == 2:
-            self.recipe.og = self.recipe.current_og
-            self.recipe.srm = self.recipe.current_srm
-            self.recipe.ibu = self.recipe.current_ibu
-            self.recipe.fg = self.recipe.current_fg
-            self.recipe.abv = self.recipe.current_abv
-            self.refresh_metrics()
-            self.fermenting_end = self.ui.slider_timeline.value()
-            self.set_up_timeline()
+            self.recipe.stop_fermenting()
+            self.fermenting_end = max(1, self.ui.slider_timeline.value())
+            self.current_stage = max(self.current_stage, 3)
+
+        if self.is_playing:
+            self.toggle_play()
+
+        self.refresh_metrics()
         self.manage_stages(self.stage)
 
     def set_up_timeline(self):
+        self.ui.slider_timeline.blockSignals(True)
         if self.stage == 0:
-            self.ui.slider_timeline.setRange(0,self.mashing_end)
-            self.ui.slider_timeline.setValue(0)
+            self.ui.slider_timeline.setRange(0, self.mashing_end)
+            if self.stage == self.current_stage:
+                self.ui.slider_timeline.setValue(0)
+                self.recipe.set_time(0.0)
+            else:
+                self.ui.slider_timeline.setValue(self.mashing_end)
+                self.recipe.set_time(self.mashing_end / 100)
         elif self.stage == 1:
             self.ui.slider_timeline.setRange(0, self.boiling_end)
-            self.ui.slider_timeline.setValue(0)
+            if self.stage == self.current_stage:
+                self.ui.slider_timeline.setValue(0)
+                self.recipe.set_time(0.0)
+            else:
+                self.ui.slider_timeline.setValue(self.boiling_end)
+                self.recipe.set_time(self.boiling_end / 100)
         elif self.stage == 2:
             self.ui.slider_timeline.setRange(0, self.fermenting_end)
-            self.ui.slider_timeline.setValue(0)
+            if self.stage == self.current_stage:
+                self.ui.slider_timeline.setValue(0)
+                self.recipe.set_time(0.0)
+                if self.ui.slider_temperature.value() == 0 or self.ui.slider_temperature.value() == 100:
+                    self.ui.slider_temperature.setValue(20)
+                    self.set_temp()
+            else:
+                self.ui.slider_timeline.setValue(self.fermenting_end)
+                self.recipe.set_time(self.fermenting_end / 100)
+        self.ui.slider_timeline.blockSignals(False)
 
     def refresh_timeline(self, val):
         if self.stage == 0:
@@ -417,10 +449,13 @@ class MainWindow(QMainWindow):
         self.ui.btn_timeline_play_pause.setText("⏸" if self.is_playing else "▶")
 
         if self.is_playing:
+            self.ui.slider_temperature.setEnabled(False)
             if self.playback_rate <= 0:
                 self.playback_rate = 1
             self.timeline_timer.start(10)
         else:
+            if self.stage == 0 or self.stage == 2:
+                self.ui.slider_temperature.setEnabled(True)
             self.playback_rate = 0
             self.timeline_timer.stop()
         self.ui.lbl_timeline_speed.setText(f"{self.playback_rate}x")
@@ -463,23 +498,29 @@ class MainWindow(QMainWindow):
         self.ui.slider_timeline.setValue(new_val)
 
     def refresh_stage_metrics(self, time):
-        self.recipe.set_time(time/100)
+        self.recipe.set_time(time / 100)
         if self.stage == 0:
             self.recipe.update_mashing()
             self.ui.lbl_mashing_water.setText(f"Water: {self.recipe.current_water:.1f}")
             self.ui.lbl_mashing_og.setText(f"OG: {self.recipe.current_og:.3f}")
             self.ui.lbl_mashing_srm.setText(f"SRM: {round(self.recipe.current_srm)}")
-            self.ui.slider_temperature.setValue(self.recipe.temp)
+            if self.recipe.temp > 0:
+                self.ui.slider_temperature.setValue(int(round(self.recipe.temp)))
         elif self.stage == 1:
             self.recipe.update_boiling()
             self.ui.lbl_boiling_water.setText(f"Water: {self.recipe.current_water:.1f}")
             self.ui.lbl_boiling_og.setText(f"OG: {self.recipe.current_og:.3f}")
             self.ui.lbl_boiling_ibu.setText(f"IBU: {round(self.recipe.current_ibu)}")
         elif self.stage == 2:
-            pass
+            self.recipe.update_fermenting()
+            self.ui.lbl_fermenting_fg.setText(f"FG: {self.recipe.current_fg:.3f}")
+            self.ui.lbl_fermenting_abv.setText(f"ABV: {self.recipe.current_abv:.1f}%")
+            if self.recipe.temp > 0:
+                self.ui.slider_temperature.setValue(int(round(self.recipe.temp)))
 
     def set_temp(self):
         self.recipe.set_temp(self.ui.slider_temperature.value(), self.stage)
+        self.refresh_stage_metrics(self.ui.slider_timeline.value())
 
     def manage_stages(self, target_stage=None):
         if target_stage is not None:
@@ -520,8 +561,9 @@ class MainWindow(QMainWindow):
             self.ui.slider_temperature.setEnabled(is_active)
 
         # Water volume controls
-        self.ui.frame_summary_water.setEnabled(is_active)
-        self.ui.btn_summary_water_up.setEnabled(is_active)
+        can_edit_water = (self.stage in (0, 1) and is_active)
+        self.ui.frame_summary_water.setEnabled(can_edit_water)
+        self.ui.btn_summary_water_up.setEnabled(can_edit_water)
 
         # Stage 0
         can_add_malt = (self.stage == 0 and is_active)
@@ -534,7 +576,3 @@ class MainWindow(QMainWindow):
         # Stage 2
         can_add_yeast = (self.stage == 2 and is_active)
         self.ui.tab_yeasts.setEnabled(can_add_yeast)
-
-
-
-

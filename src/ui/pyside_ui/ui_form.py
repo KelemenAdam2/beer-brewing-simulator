@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'formRZHDUx.ui'
+## Form generated from reading UI file 'formBVYODU.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.11.0
 ##
@@ -194,11 +194,6 @@ class Ui_MainWindow(object):
         self.lbl_fermenting_abv.setObjectName(u"lbl_fermenting_abv")
 
         self.layout_fermenting.addWidget(self.lbl_fermenting_abv)
-
-        self.lbl_fermenting_co2 = QLabel(self.page_fermenting)
-        self.lbl_fermenting_co2.setObjectName(u"lbl_fermenting_co2")
-
-        self.layout_fermenting.addWidget(self.lbl_fermenting_co2)
 
 
         self.horizontalLayout_3.addLayout(self.layout_fermenting)
@@ -971,7 +966,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stacked_widget_stage.setCurrentIndex(0)
+        self.stacked_widget_stage.setCurrentIndex(2)
         self.tab_widget_ingredients.setCurrentIndex(2)
 
 
@@ -991,7 +986,6 @@ class Ui_MainWindow(object):
         self.lbl_boiling_ibu.setText(QCoreApplication.translate("MainWindow", u"IBU: 0", None))
         self.lbl_fermenting_fg.setText(QCoreApplication.translate("MainWindow", u"FG: 1.000", None))
         self.lbl_fermenting_abv.setText(QCoreApplication.translate("MainWindow", u"ABV: 0.0%", None))
-        self.lbl_fermenting_co2.setText(QCoreApplication.translate("MainWindow", u"CO2: 0 psi", None))
         self.btn_brewing_stage_next.setText(QCoreApplication.translate("MainWindow", u">", None))
         self.lbl_temperature_header.setText(QCoreApplication.translate("MainWindow", u"TEMP", None))
         self.lbl_temperature_value.setText(QCoreApplication.translate("MainWindow", u"0 \u02daC", None))

@@ -64,7 +64,7 @@ class BrewCalculator:
             ibu_sum += round(hop[1] * hop[0].alpha * utilization * 10 / batch_size, 2)
         return ibu_sum
 
-    # Calculates current OG and SRM based on mash temperature and time from start
+    # Calculates current OG and SRM based on mash temperature and time
     @staticmethod
     def calc_mashing(og_start, srm_start, og_final, srm_final, time, temp):
         # Gaussian curve peaking at 67 ˚C
@@ -84,8 +84,11 @@ class BrewCalculator:
 
         return current_og, current_srm
 
+    # Calculates current IBU, Volume and OG based on boil time and water evaporation
     @staticmethod
-    def calc_boiling(ibu_start, ibu_final, og_start, water_volume, time):
+    def calc_boiling(ibu_start, ibu_final, og_start, water_volume, time, target_time):
+        if water_volume <= 0:
+            return 0.0, 0.0, og_start
 
         evaporation_rate_per_min = 0.10 / 60
 
@@ -95,9 +98,43 @@ class BrewCalculator:
         current_og = 1.0 + (starting_gravity_points / current_volume)
 
         k_ibu = 0.04
-        ibu_progress = 1 - math.exp(-k_ibu * time)
+        t_target = float(target_time)
+        scale = 1.0 - math.exp(-k_ibu * t_target)
+        ibu_progress = (1.0 - math.exp(-k_ibu * time)) / scale
 
         ibu_diff = ibu_final - ibu_start
-        current_ibu = ibu_start + (ibu_diff * ibu_progress)
+        current_ibu = round(ibu_start + (ibu_diff * ibu_progress), 2)
 
         return current_ibu, current_volume, current_og
+
+    # Calculates current FG and ABV based on fermentation time and temperature
+    @staticmethod
+    def calc_fermenting(og_start, fg_final, time, temp, yeast=None, fg_start=None, abv_start=None):
+        if og_start <= 1.0:
+            return 1.0, 0.0
+
+        if fg_start is None:
+            fg_start = og_start
+
+        if yeast:
+            mid_temp = (yeast.min_temp + yeast.max_temp) / 2.0
+            temp_range = max(1.0, (yeast.max_temp - yeast.min_temp) / 2.0)
+            temp_factor = math.exp(-((temp - mid_temp) ** 2) / (2 * (temp_range ** 2)))
+        elif yeast:
+            mid_temp = (yeast.min_temp + yeast.max_temp) / 2.0
+            temp_factor = math.exp(-((temp - mid_temp) ** 2) / 50)
+        else:
+            temp_factor = math.exp(-((temp - 20) ** 2) / 50)
+
+        k_ferm = 0.35 * temp_factor
+        ferm_progress = 1 - math.exp(-k_ferm * max(0.0, time))
+
+        fg_diff = max(0.0, fg_start - fg_final)
+        current_fg = round(fg_start - (fg_diff * ferm_progress), 3)
+
+        if abv_start is not None:
+            current_abv = max(abv_start, round(abv_start + (fg_start - current_fg) * 131.25, 2))
+        else:
+            current_abv = max(0.0, round((og_start - current_fg) * 131.25, 2))
+
+        return current_fg, current_abv
