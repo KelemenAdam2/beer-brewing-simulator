@@ -63,3 +63,41 @@ class BrewCalculator:
             utilization = bigness_factor * time_factor * 1.1
             ibu_sum += round(hop[1] * hop[0].alpha * utilization * 10 / batch_size, 2)
         return ibu_sum
+
+    # Calculates current OG and SRM based on mash temperature and time from start
+    @staticmethod
+    def calc_mashing(og_start, srm_start, og_final, srm_final, time, temp):
+        # Gaussian curve peaking at 67 ˚C
+        k_og = 0.08 * math.exp(-((temp - 67) ** 2) / 50)
+
+        # Linear scaling
+        k_srm = 0.12 * (temp / 67)
+
+        og_progress = 1 - math.exp(-k_og * time)
+        srm_progress = 1 - math.exp(-k_srm * time)
+
+        og_diff = (og_final - og_start)
+        srm_diff = (srm_final - srm_start)
+
+        current_og = og_start + (og_diff * og_progress)
+        current_srm = srm_start + (srm_diff * srm_progress)
+
+        return current_og, current_srm
+
+    @staticmethod
+    def calc_boiling(ibu_start, ibu_final, og_start, water_volume, time):
+
+        evaporation_rate_per_min = 0.10 / 60
+
+        current_volume = water_volume * (1 - (evaporation_rate_per_min * time))
+
+        starting_gravity_points = (og_start - 1.0) * water_volume
+        current_og = 1.0 + (starting_gravity_points / current_volume)
+
+        k_ibu = 0.04
+        ibu_progress = 1 - math.exp(-k_ibu * time)
+
+        ibu_diff = ibu_final - ibu_start
+        current_ibu = ibu_start + (ibu_diff * ibu_progress)
+
+        return current_ibu, current_volume, current_og

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'formMxXDqt.ui'
+## Form generated from reading UI file 'formRZHDUx.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.11.0
 ##
@@ -18,8 +18,9 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QFrame, QGridLayout, QHBoxLayout,
     QHeaderView, QLabel, QLayout, QLineEdit,
     QListWidget, QListWidgetItem, QMainWindow, QPushButton,
-    QSizePolicy, QSlider, QSpacerItem, QTabWidget,
-    QTableWidget, QTableWidgetItem, QVBoxLayout, QWidget)
+    QSizePolicy, QSlider, QSpacerItem, QStackedWidget,
+    QTabWidget, QTableWidget, QTableWidgetItem, QVBoxLayout,
+    QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -36,100 +37,196 @@ class Ui_MainWindow(object):
         self.layout_left_column = QVBoxLayout()
         self.layout_left_column.setSpacing(8)
         self.layout_left_column.setObjectName(u"layout_left_column")
-        self.layout_state_and_temp = QHBoxLayout()
-        self.layout_state_and_temp.setSpacing(8)
-        self.layout_state_and_temp.setObjectName(u"layout_state_and_temp")
-        self.frame_brewing_state = QFrame(self.centralwidget)
-        self.frame_brewing_state.setObjectName(u"frame_brewing_state")
+        self.layout_stage_and_temp = QHBoxLayout()
+        self.layout_stage_and_temp.setSpacing(8)
+        self.layout_stage_and_temp.setObjectName(u"layout_stage_and_temp")
+        self.frame_brewing_stage = QFrame(self.centralwidget)
+        self.frame_brewing_stage.setObjectName(u"frame_brewing_stage")
         sizePolicy = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
-        sizePolicy.setHeightForWidth(self.frame_brewing_state.sizePolicy().hasHeightForWidth())
-        self.frame_brewing_state.setSizePolicy(sizePolicy)
-        self.frame_brewing_state.setFrameShape(QFrame.Shape.StyledPanel)
-        self.frame_brewing_state.setFrameShadow(QFrame.Shadow.Raised)
-        self.layout_brewing_state = QVBoxLayout(self.frame_brewing_state)
+        sizePolicy.setHeightForWidth(self.frame_brewing_stage.sizePolicy().hasHeightForWidth())
+        self.frame_brewing_stage.setSizePolicy(sizePolicy)
+        self.frame_brewing_stage.setFrameShape(QFrame.Shape.StyledPanel)
+        self.frame_brewing_stage.setFrameShadow(QFrame.Shadow.Raised)
+        self.layout_brewing_state = QVBoxLayout(self.frame_brewing_stage)
         self.layout_brewing_state.setObjectName(u"layout_brewing_state")
-        self.layout_state_and_button = QHBoxLayout()
-        self.layout_state_and_button.setObjectName(u"layout_state_and_button")
-        self.lbl_brewing_state_title = QLabel(self.frame_brewing_state)
-        self.lbl_brewing_state_title.setObjectName(u"lbl_brewing_state_title")
+        self.layout_stage_and_button = QHBoxLayout()
+        self.layout_stage_and_button.setObjectName(u"layout_stage_and_button")
+        self.lbl_brewing_stage_title = QLabel(self.frame_brewing_stage)
+        self.lbl_brewing_stage_title.setObjectName(u"lbl_brewing_stage_title")
         sizePolicy1 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Fixed)
         sizePolicy1.setHorizontalStretch(0)
         sizePolicy1.setVerticalStretch(0)
-        sizePolicy1.setHeightForWidth(self.lbl_brewing_state_title.sizePolicy().hasHeightForWidth())
-        self.lbl_brewing_state_title.setSizePolicy(sizePolicy1)
+        sizePolicy1.setHeightForWidth(self.lbl_brewing_stage_title.sizePolicy().hasHeightForWidth())
+        self.lbl_brewing_stage_title.setSizePolicy(sizePolicy1)
         font = QFont()
         font.setPointSize(24)
         font.setBold(True)
-        self.lbl_brewing_state_title.setFont(font)
-        self.lbl_brewing_state_title.setAlignment(Qt.AlignmentFlag.AlignLeading|Qt.AlignmentFlag.AlignLeft|Qt.AlignmentFlag.AlignVCenter)
+        self.lbl_brewing_stage_title.setFont(font)
+        self.lbl_brewing_stage_title.setAlignment(Qt.AlignmentFlag.AlignLeading|Qt.AlignmentFlag.AlignLeft|Qt.AlignmentFlag.AlignVCenter)
 
-        self.layout_state_and_button.addWidget(self.lbl_brewing_state_title)
+        self.layout_stage_and_button.addWidget(self.lbl_brewing_stage_title)
 
-        self.btn_reset = QPushButton(self.frame_brewing_state)
+        self.btn_reset = QPushButton(self.frame_brewing_stage)
         self.btn_reset.setObjectName(u"btn_reset")
         font1 = QFont()
         font1.setPointSize(16)
         font1.setBold(True)
         self.btn_reset.setFont(font1)
 
-        self.layout_state_and_button.addWidget(self.btn_reset)
+        self.layout_stage_and_button.addWidget(self.btn_reset)
 
-        self.layout_state_and_button.setStretch(0, 10)
-        self.layout_state_and_button.setStretch(1, 1)
+        self.layout_stage_and_button.setStretch(0, 10)
+        self.layout_stage_and_button.setStretch(1, 1)
 
-        self.layout_brewing_state.addLayout(self.layout_state_and_button)
+        self.layout_brewing_state.addLayout(self.layout_stage_and_button)
 
-        self.layout_brewing_state_controls = QHBoxLayout()
-        self.layout_brewing_state_controls.setObjectName(u"layout_brewing_state_controls")
-        self.layout_brewing_state_controls.setSizeConstraint(QLayout.SizeConstraint.SetNoConstraint)
-        self.btn_brewing_state_prev = QPushButton(self.frame_brewing_state)
-        self.btn_brewing_state_prev.setObjectName(u"btn_brewing_state_prev")
+        self.layout_brewing_stage_controls = QHBoxLayout()
+        self.layout_brewing_stage_controls.setObjectName(u"layout_brewing_stage_controls")
+        self.layout_brewing_stage_controls.setSizeConstraint(QLayout.SizeConstraint.SetNoConstraint)
+        self.btn_brewing_stage_prev = QPushButton(self.frame_brewing_stage)
+        self.btn_brewing_stage_prev.setObjectName(u"btn_brewing_stage_prev")
         sizePolicy2 = QSizePolicy(QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Fixed)
         sizePolicy2.setHorizontalStretch(0)
         sizePolicy2.setVerticalStretch(0)
-        sizePolicy2.setHeightForWidth(self.btn_brewing_state_prev.sizePolicy().hasHeightForWidth())
-        self.btn_brewing_state_prev.setSizePolicy(sizePolicy2)
-        self.btn_brewing_state_prev.setMinimumSize(QSize(42, 70))
+        sizePolicy2.setHeightForWidth(self.btn_brewing_stage_prev.sizePolicy().hasHeightForWidth())
+        self.btn_brewing_stage_prev.setSizePolicy(sizePolicy2)
+        self.btn_brewing_stage_prev.setMinimumSize(QSize(42, 70))
         font2 = QFont()
         font2.setPointSize(20)
         font2.setBold(True)
-        self.btn_brewing_state_prev.setFont(font2)
-        self.btn_brewing_state_prev.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.btn_brewing_stage_prev.setFont(font2)
+        self.btn_brewing_stage_prev.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
 
-        self.layout_brewing_state_controls.addWidget(self.btn_brewing_state_prev)
+        self.layout_brewing_stage_controls.addWidget(self.btn_brewing_stage_prev)
 
-        self.widget_brewing_state_display = QWidget(self.frame_brewing_state)
-        self.widget_brewing_state_display.setObjectName(u"widget_brewing_state_display")
-        self.layout_brewing_state_display = QVBoxLayout(self.widget_brewing_state_display)
-        self.layout_brewing_state_display.setObjectName(u"layout_brewing_state_display")
-        self.spacer_placeholder = QSpacerItem(20, 200, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+        self.stacked_widget_stage = QStackedWidget(self.frame_brewing_stage)
+        self.stacked_widget_stage.setObjectName(u"stacked_widget_stage")
+        self.page_mashing = QWidget()
+        self.page_mashing.setObjectName(u"page_mashing")
+        self.horizontalLayout = QHBoxLayout(self.page_mashing)
+        self.horizontalLayout.setObjectName(u"horizontalLayout")
+        self.widget_mashing = QWidget(self.page_mashing)
+        self.widget_mashing.setObjectName(u"widget_mashing")
+        self.horizontalLayout_5 = QHBoxLayout(self.widget_mashing)
+        self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
 
-        self.layout_brewing_state_display.addItem(self.spacer_placeholder)
+        self.horizontalLayout.addWidget(self.widget_mashing)
+
+        self.layout_mashing = QVBoxLayout()
+        self.layout_mashing.setObjectName(u"layout_mashing")
+        self.lbl_mashing_water = QLabel(self.page_mashing)
+        self.lbl_mashing_water.setObjectName(u"lbl_mashing_water")
+
+        self.layout_mashing.addWidget(self.lbl_mashing_water)
+
+        self.lbl_mashing_og = QLabel(self.page_mashing)
+        self.lbl_mashing_og.setObjectName(u"lbl_mashing_og")
+
+        self.layout_mashing.addWidget(self.lbl_mashing_og)
+
+        self.lbl_mashing_srm = QLabel(self.page_mashing)
+        self.lbl_mashing_srm.setObjectName(u"lbl_mashing_srm")
+
+        self.layout_mashing.addWidget(self.lbl_mashing_srm)
 
 
-        self.layout_brewing_state_controls.addWidget(self.widget_brewing_state_display)
+        self.horizontalLayout.addLayout(self.layout_mashing)
 
-        self.btn_brewing_state_next = QPushButton(self.frame_brewing_state)
-        self.btn_brewing_state_next.setObjectName(u"btn_brewing_state_next")
-        sizePolicy2.setHeightForWidth(self.btn_brewing_state_next.sizePolicy().hasHeightForWidth())
-        self.btn_brewing_state_next.setSizePolicy(sizePolicy2)
-        self.btn_brewing_state_next.setMinimumSize(QSize(42, 70))
-        self.btn_brewing_state_next.setFont(font2)
-        self.btn_brewing_state_next.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.horizontalLayout.setStretch(0, 3)
+        self.horizontalLayout.setStretch(1, 1)
+        self.stacked_widget_stage.addWidget(self.page_mashing)
+        self.page_boiling = QWidget()
+        self.page_boiling.setObjectName(u"page_boiling")
+        self.horizontalLayout_2 = QHBoxLayout(self.page_boiling)
+        self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
+        self.widget_boiling = QWidget(self.page_boiling)
+        self.widget_boiling.setObjectName(u"widget_boiling")
+        self.horizontalLayout_6 = QHBoxLayout(self.widget_boiling)
+        self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
 
-        self.layout_brewing_state_controls.addWidget(self.btn_brewing_state_next)
+        self.horizontalLayout_2.addWidget(self.widget_boiling)
 
-        self.layout_brewing_state_controls.setStretch(0, 1)
-        self.layout_brewing_state_controls.setStretch(1, 20)
-        self.layout_brewing_state_controls.setStretch(2, 1)
+        self.layout_boiling = QVBoxLayout()
+        self.layout_boiling.setObjectName(u"layout_boiling")
+        self.lbl_boiling_water = QLabel(self.page_boiling)
+        self.lbl_boiling_water.setObjectName(u"lbl_boiling_water")
 
-        self.layout_brewing_state.addLayout(self.layout_brewing_state_controls)
+        self.layout_boiling.addWidget(self.lbl_boiling_water)
+
+        self.lbl_boiling_og = QLabel(self.page_boiling)
+        self.lbl_boiling_og.setObjectName(u"lbl_boiling_og")
+
+        self.layout_boiling.addWidget(self.lbl_boiling_og)
+
+        self.lbl_boiling_ibu = QLabel(self.page_boiling)
+        self.lbl_boiling_ibu.setObjectName(u"lbl_boiling_ibu")
+
+        self.layout_boiling.addWidget(self.lbl_boiling_ibu)
+
+
+        self.horizontalLayout_2.addLayout(self.layout_boiling)
+
+        self.horizontalLayout_2.setStretch(0, 3)
+        self.horizontalLayout_2.setStretch(1, 1)
+        self.stacked_widget_stage.addWidget(self.page_boiling)
+        self.page_fermenting = QWidget()
+        self.page_fermenting.setObjectName(u"page_fermenting")
+        self.horizontalLayout_3 = QHBoxLayout(self.page_fermenting)
+        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
+        self.widget_fermenting = QWidget(self.page_fermenting)
+        self.widget_fermenting.setObjectName(u"widget_fermenting")
+        self.widget_fermenting.setAutoFillBackground(False)
+        self.horizontalLayout_4 = QHBoxLayout(self.widget_fermenting)
+        self.horizontalLayout_4.setObjectName(u"horizontalLayout_4")
+
+        self.horizontalLayout_3.addWidget(self.widget_fermenting)
+
+        self.layout_fermenting = QVBoxLayout()
+        self.layout_fermenting.setObjectName(u"layout_fermenting")
+        self.lbl_fermenting_fg = QLabel(self.page_fermenting)
+        self.lbl_fermenting_fg.setObjectName(u"lbl_fermenting_fg")
+
+        self.layout_fermenting.addWidget(self.lbl_fermenting_fg)
+
+        self.lbl_fermenting_abv = QLabel(self.page_fermenting)
+        self.lbl_fermenting_abv.setObjectName(u"lbl_fermenting_abv")
+
+        self.layout_fermenting.addWidget(self.lbl_fermenting_abv)
+
+        self.lbl_fermenting_co2 = QLabel(self.page_fermenting)
+        self.lbl_fermenting_co2.setObjectName(u"lbl_fermenting_co2")
+
+        self.layout_fermenting.addWidget(self.lbl_fermenting_co2)
+
+
+        self.horizontalLayout_3.addLayout(self.layout_fermenting)
+
+        self.horizontalLayout_3.setStretch(0, 3)
+        self.horizontalLayout_3.setStretch(1, 1)
+        self.stacked_widget_stage.addWidget(self.page_fermenting)
+
+        self.layout_brewing_stage_controls.addWidget(self.stacked_widget_stage)
+
+        self.btn_brewing_stage_next = QPushButton(self.frame_brewing_stage)
+        self.btn_brewing_stage_next.setObjectName(u"btn_brewing_stage_next")
+        sizePolicy2.setHeightForWidth(self.btn_brewing_stage_next.sizePolicy().hasHeightForWidth())
+        self.btn_brewing_stage_next.setSizePolicy(sizePolicy2)
+        self.btn_brewing_stage_next.setMinimumSize(QSize(42, 70))
+        self.btn_brewing_stage_next.setFont(font2)
+        self.btn_brewing_stage_next.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+
+        self.layout_brewing_stage_controls.addWidget(self.btn_brewing_stage_next)
+
+        self.layout_brewing_stage_controls.setStretch(0, 1)
+        self.layout_brewing_stage_controls.setStretch(2, 1)
+
+        self.layout_brewing_state.addLayout(self.layout_brewing_stage_controls)
 
         self.layout_brewing_state.setStretch(1, 8)
 
-        self.layout_state_and_temp.addWidget(self.frame_brewing_state)
+        self.layout_stage_and_temp.addWidget(self.frame_brewing_stage)
 
         self.frame_temperature = QFrame(self.centralwidget)
         self.frame_temperature.setObjectName(u"frame_temperature")
@@ -159,7 +256,7 @@ class Ui_MainWindow(object):
         sizePolicy3.setHeightForWidth(self.slider_temperature.sizePolicy().hasHeightForWidth())
         self.slider_temperature.setSizePolicy(sizePolicy3)
         self.slider_temperature.setMaximum(100)
-        self.slider_temperature.setValue(100)
+        self.slider_temperature.setValue(0)
         self.slider_temperature.setTracking(True)
         self.slider_temperature.setOrientation(Qt.Orientation.Vertical)
         self.slider_temperature.setInvertedControls(False)
@@ -177,12 +274,12 @@ class Ui_MainWindow(object):
         self.layout_temperature.addWidget(self.lbl_temperature_value)
 
 
-        self.layout_state_and_temp.addWidget(self.frame_temperature)
+        self.layout_stage_and_temp.addWidget(self.frame_temperature)
 
-        self.layout_state_and_temp.setStretch(0, 10)
-        self.layout_state_and_temp.setStretch(1, 1)
+        self.layout_stage_and_temp.setStretch(0, 10)
+        self.layout_stage_and_temp.setStretch(1, 1)
 
-        self.layout_left_column.addLayout(self.layout_state_and_temp)
+        self.layout_left_column.addLayout(self.layout_stage_and_temp)
 
         self.frame_timeline = QFrame(self.centralwidget)
         self.frame_timeline.setObjectName(u"frame_timeline")
@@ -216,6 +313,15 @@ class Ui_MainWindow(object):
 
         self.layout_timeline.addWidget(self.btn_timeline_fast_forward)
 
+        self.lbl_timeline_speed = QLabel(self.frame_timeline)
+        self.lbl_timeline_speed.setObjectName(u"lbl_timeline_speed")
+        font4 = QFont()
+        font4.setPointSize(18)
+        font4.setBold(True)
+        self.lbl_timeline_speed.setFont(font4)
+
+        self.layout_timeline.addWidget(self.lbl_timeline_speed)
+
         self.slider_timeline = QSlider(self.frame_timeline)
         self.slider_timeline.setObjectName(u"slider_timeline")
         sizePolicy4 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
@@ -236,6 +342,17 @@ class Ui_MainWindow(object):
         self.lbl_timeline_time.setAlignment(Qt.AlignmentFlag.AlignHCenter|Qt.AlignmentFlag.AlignTop)
 
         self.layout_timeline.addWidget(self.lbl_timeline_time)
+
+        self.btn_timeline_stop_stage = QPushButton(self.frame_timeline)
+        self.btn_timeline_stop_stage.setObjectName(u"btn_timeline_stop_stage")
+        self.btn_timeline_stop_stage.setMinimumSize(QSize(44, 34))
+        font5 = QFont()
+        font5.setPointSize(14)
+        font5.setBold(True)
+        self.btn_timeline_stop_stage.setFont(font5)
+        self.btn_timeline_stop_stage.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+
+        self.layout_timeline.addWidget(self.btn_timeline_stop_stage)
 
 
         self.layout_left_column.addWidget(self.frame_timeline)
@@ -262,9 +379,6 @@ class Ui_MainWindow(object):
         self.layout_summary_malts.setObjectName(u"layout_summary_malts")
         self.lbl_summary_malts_title = QLabel(self.frame_summary_malts)
         self.lbl_summary_malts_title.setObjectName(u"lbl_summary_malts_title")
-        font4 = QFont()
-        font4.setPointSize(18)
-        font4.setBold(True)
         self.lbl_summary_malts_title.setFont(font4)
         self.lbl_summary_malts_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
@@ -272,9 +386,9 @@ class Ui_MainWindow(object):
 
         self.list_summary_malts = QListWidget(self.frame_summary_malts)
         self.list_summary_malts.setObjectName(u"list_summary_malts")
-        font5 = QFont()
-        font5.setPointSize(12)
-        self.list_summary_malts.setFont(font5)
+        font6 = QFont()
+        font6.setPointSize(12)
+        self.list_summary_malts.setFont(font6)
 
         self.layout_summary_malts.addWidget(self.list_summary_malts)
 
@@ -297,7 +411,7 @@ class Ui_MainWindow(object):
 
         self.list_summary_hops = QListWidget(self.frame_summary_hops)
         self.list_summary_hops.setObjectName(u"list_summary_hops")
-        self.list_summary_hops.setFont(font5)
+        self.list_summary_hops.setFont(font6)
 
         self.layout_summary_hops.addWidget(self.list_summary_hops)
 
@@ -320,7 +434,7 @@ class Ui_MainWindow(object):
 
         self.list_summary_yeast = QListWidget(self.frame_summary_yeast)
         self.list_summary_yeast.setObjectName(u"list_summary_yeast")
-        self.list_summary_yeast.setFont(font5)
+        self.list_summary_yeast.setFont(font6)
 
         self.layout_summary_yeast.addWidget(self.list_summary_yeast)
 
@@ -359,27 +473,18 @@ class Ui_MainWindow(object):
 
         self.layout_summary_water_buttons = QHBoxLayout()
         self.layout_summary_water_buttons.setObjectName(u"layout_summary_water_buttons")
-        self.btn_summary_water_down = QPushButton(self.frame_summary_water)
-        self.btn_summary_water_down.setObjectName(u"btn_summary_water_down")
+        self.btn_summary_water_up = QPushButton(self.frame_summary_water)
+        self.btn_summary_water_up.setObjectName(u"btn_summary_water_up")
         sizePolicy5 = QSizePolicy(QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Minimum)
         sizePolicy5.setHorizontalStretch(0)
         sizePolicy5.setVerticalStretch(0)
-        sizePolicy5.setHeightForWidth(self.btn_summary_water_down.sizePolicy().hasHeightForWidth())
-        self.btn_summary_water_down.setSizePolicy(sizePolicy5)
-        self.btn_summary_water_down.setFont(font2)
-
-        self.layout_summary_water_buttons.addWidget(self.btn_summary_water_down)
-
-        self.btn_summary_water_up = QPushButton(self.frame_summary_water)
-        self.btn_summary_water_up.setObjectName(u"btn_summary_water_up")
         sizePolicy5.setHeightForWidth(self.btn_summary_water_up.sizePolicy().hasHeightForWidth())
         self.btn_summary_water_up.setSizePolicy(sizePolicy5)
-        self.btn_summary_water_up.setFont(font2)
+        self.btn_summary_water_up.setFont(font1)
 
         self.layout_summary_water_buttons.addWidget(self.btn_summary_water_up)
 
         self.layout_summary_water_buttons.setStretch(0, 1)
-        self.layout_summary_water_buttons.setStretch(1, 1)
 
         self.layout_summary_water.addLayout(self.layout_summary_water_buttons)
 
@@ -419,14 +524,14 @@ class Ui_MainWindow(object):
         self.layout_metric_og.setObjectName(u"layout_metric_og")
         self.lbl_metric_og_title = QLabel(self.frame_metric_gravity)
         self.lbl_metric_og_title.setObjectName(u"lbl_metric_og_title")
-        self.lbl_metric_og_title.setFont(font4)
+        self.lbl_metric_og_title.setFont(font)
         self.lbl_metric_og_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_og.addWidget(self.lbl_metric_og_title)
 
         self.lbl_metric_og_value = QLabel(self.frame_metric_gravity)
         self.lbl_metric_og_value.setObjectName(u"lbl_metric_og_value")
-        self.lbl_metric_og_value.setFont(font4)
+        self.lbl_metric_og_value.setFont(font2)
         self.lbl_metric_og_value.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_og.addWidget(self.lbl_metric_og_value)
@@ -434,18 +539,22 @@ class Ui_MainWindow(object):
 
         self.layout_metric_gravity.addLayout(self.layout_metric_og)
 
+        self.spacer_metric_gravity = QSpacerItem(5, 20, QSizePolicy.Policy.Fixed, QSizePolicy.Policy.Minimum)
+
+        self.layout_metric_gravity.addItem(self.spacer_metric_gravity)
+
         self.layout_metric_fg = QVBoxLayout()
         self.layout_metric_fg.setObjectName(u"layout_metric_fg")
         self.lbl_metric_fg_title = QLabel(self.frame_metric_gravity)
         self.lbl_metric_fg_title.setObjectName(u"lbl_metric_fg_title")
-        self.lbl_metric_fg_title.setFont(font4)
+        self.lbl_metric_fg_title.setFont(font)
         self.lbl_metric_fg_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_fg.addWidget(self.lbl_metric_fg_title)
 
         self.lbl_metric_fg_value = QLabel(self.frame_metric_gravity)
         self.lbl_metric_fg_value.setObjectName(u"lbl_metric_fg_value")
-        self.lbl_metric_fg_value.setFont(font4)
+        self.lbl_metric_fg_value.setFont(font2)
         self.lbl_metric_fg_value.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_fg.addWidget(self.lbl_metric_fg_value)
@@ -465,7 +574,7 @@ class Ui_MainWindow(object):
         self.layout_metric_color.setObjectName(u"layout_metric_color")
         self.lbl_metric_color_title = QLabel(self.frame_metric_color)
         self.lbl_metric_color_title.setObjectName(u"lbl_metric_color_title")
-        self.lbl_metric_color_title.setFont(font4)
+        self.lbl_metric_color_title.setFont(font)
         self.lbl_metric_color_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_color.addWidget(self.lbl_metric_color_title)
@@ -474,14 +583,22 @@ class Ui_MainWindow(object):
         self.layout_metric_color_row.setObjectName(u"layout_metric_color_row")
         self.lbl_metric_srm_value = QLabel(self.frame_metric_color)
         self.lbl_metric_srm_value.setObjectName(u"lbl_metric_srm_value")
-        self.lbl_metric_srm_value.setFont(font4)
+        self.lbl_metric_srm_value.setFont(font2)
         self.lbl_metric_srm_value.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_color_row.addWidget(self.lbl_metric_srm_value)
 
         self.lbl_metric_rgb_preview = QLabel(self.frame_metric_color)
         self.lbl_metric_rgb_preview.setObjectName(u"lbl_metric_rgb_preview")
-        self.lbl_metric_rgb_preview.setFont(font4)
+        sizePolicy2.setHeightForWidth(self.lbl_metric_rgb_preview.sizePolicy().hasHeightForWidth())
+        self.lbl_metric_rgb_preview.setSizePolicy(sizePolicy2)
+        self.lbl_metric_rgb_preview.setMinimumSize(QSize(50, 50))
+        self.lbl_metric_rgb_preview.setFont(font2)
+        self.lbl_metric_rgb_preview.setAutoFillBackground(False)
+        self.lbl_metric_rgb_preview.setFrameShape(QFrame.Shape.StyledPanel)
+        self.lbl_metric_rgb_preview.setFrameShadow(QFrame.Shadow.Sunken)
+        self.lbl_metric_rgb_preview.setLineWidth(2)
+        self.lbl_metric_rgb_preview.setMidLineWidth(1)
         self.lbl_metric_rgb_preview.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_color_row.addWidget(self.lbl_metric_rgb_preview)
@@ -501,14 +618,14 @@ class Ui_MainWindow(object):
         self.layout_metric_abv.setObjectName(u"layout_metric_abv")
         self.lbl_metric_abv_title = QLabel(self.frame_metric_abv)
         self.lbl_metric_abv_title.setObjectName(u"lbl_metric_abv_title")
-        self.lbl_metric_abv_title.setFont(font4)
+        self.lbl_metric_abv_title.setFont(font)
         self.lbl_metric_abv_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_abv.addWidget(self.lbl_metric_abv_title)
 
         self.lbl_metric_abv_value = QLabel(self.frame_metric_abv)
         self.lbl_metric_abv_value.setObjectName(u"lbl_metric_abv_value")
-        self.lbl_metric_abv_value.setFont(font4)
+        self.lbl_metric_abv_value.setFont(font)
         self.lbl_metric_abv_value.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_abv.addWidget(self.lbl_metric_abv_value)
@@ -525,14 +642,14 @@ class Ui_MainWindow(object):
         self.layout_metric_ibu.setObjectName(u"layout_metric_ibu")
         self.lbl_metric_ibu_title = QLabel(self.frame_metric_ibu)
         self.lbl_metric_ibu_title.setObjectName(u"lbl_metric_ibu_title")
-        self.lbl_metric_ibu_title.setFont(font4)
+        self.lbl_metric_ibu_title.setFont(font)
         self.lbl_metric_ibu_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_ibu.addWidget(self.lbl_metric_ibu_title)
 
         self.lbl_metric_ibu_value = QLabel(self.frame_metric_ibu)
         self.lbl_metric_ibu_value.setObjectName(u"lbl_metric_ibu_value")
-        self.lbl_metric_ibu_value.setFont(font4)
+        self.lbl_metric_ibu_value.setFont(font)
         self.lbl_metric_ibu_value.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
         self.layout_metric_ibu.addWidget(self.lbl_metric_ibu_value)
@@ -548,7 +665,7 @@ class Ui_MainWindow(object):
 
         self.layout_left_column.addLayout(self.layout_charts)
 
-        self.layout_left_column.setStretch(0, 8)
+        self.layout_left_column.setStretch(0, 10)
         self.layout_left_column.setStretch(1, 1)
         self.layout_left_column.setStretch(2, 8)
 
@@ -568,10 +685,10 @@ class Ui_MainWindow(object):
         self.lbl_info_title.setObjectName(u"lbl_info_title")
         sizePolicy1.setHeightForWidth(self.lbl_info_title.sizePolicy().hasHeightForWidth())
         self.lbl_info_title.setSizePolicy(sizePolicy1)
-        font6 = QFont()
-        font6.setPointSize(22)
-        font6.setBold(True)
-        self.lbl_info_title.setFont(font6)
+        font7 = QFont()
+        font7.setPointSize(28)
+        font7.setBold(True)
+        self.lbl_info_title.setFont(font7)
         self.lbl_info_title.setAlignment(Qt.AlignmentFlag.AlignLeading|Qt.AlignmentFlag.AlignLeft|Qt.AlignmentFlag.AlignVCenter)
 
         self.layout_recipe_info.addWidget(self.lbl_info_title)
@@ -583,9 +700,9 @@ class Ui_MainWindow(object):
         sizePolicy6.setVerticalStretch(0)
         sizePolicy6.setHeightForWidth(self.lbl_info_description.sizePolicy().hasHeightForWidth())
         self.lbl_info_description.setSizePolicy(sizePolicy6)
-        font7 = QFont()
-        font7.setPointSize(13)
-        self.lbl_info_description.setFont(font7)
+        font8 = QFont()
+        font8.setPointSize(16)
+        self.lbl_info_description.setFont(font8)
         self.lbl_info_description.setAlignment(Qt.AlignmentFlag.AlignLeading|Qt.AlignmentFlag.AlignLeft|Qt.AlignmentFlag.AlignTop)
         self.lbl_info_description.setWordWrap(True)
 
@@ -605,10 +722,7 @@ class Ui_MainWindow(object):
         self.layout_ingredients.setContentsMargins(6, 6, 6, 6)
         self.tab_widget_ingredients = QTabWidget(self.frame_ingredients)
         self.tab_widget_ingredients.setObjectName(u"tab_widget_ingredients")
-        font8 = QFont()
-        font8.setPointSize(14)
-        font8.setBold(True)
-        self.tab_widget_ingredients.setFont(font8)
+        self.tab_widget_ingredients.setFont(font1)
         self.tab_widget_ingredients.setTabShape(QTabWidget.TabShape.Rounded)
         self.tab_widget_ingredients.setElideMode(Qt.TextElideMode.ElideRight)
         self.tab_widget_ingredients.setTabBarAutoHide(False)
@@ -617,6 +731,23 @@ class Ui_MainWindow(object):
         self.layout_malts_tab = QVBoxLayout(self.tab_malts)
         self.layout_malts_tab.setSpacing(6)
         self.layout_malts_tab.setObjectName(u"layout_malts_tab")
+        self.layout_malt_search = QHBoxLayout()
+        self.layout_malt_search.setObjectName(u"layout_malt_search")
+        self.edit_malt_search = QLineEdit(self.tab_malts)
+        self.edit_malt_search.setObjectName(u"edit_malt_search")
+        self.edit_malt_search.setFont(font1)
+
+        self.layout_malt_search.addWidget(self.edit_malt_search)
+
+        self.spacer_malt_search = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+
+        self.layout_malt_search.addItem(self.spacer_malt_search)
+
+        self.layout_malt_search.setStretch(0, 3)
+        self.layout_malt_search.setStretch(1, 4)
+
+        self.layout_malts_tab.addLayout(self.layout_malt_search)
+
         self.tbl_malts = QTableWidget(self.tab_malts)
         self.tbl_malts.setObjectName(u"tbl_malts")
         self.tbl_malts.setMinimumSize(QSize(0, 120))
@@ -668,15 +799,32 @@ class Ui_MainWindow(object):
 
         self.layout_malts_tab.addWidget(self.btn_malt_add)
 
-        self.layout_malts_tab.setStretch(0, 6)
-        self.layout_malts_tab.setStretch(1, 1)
-        self.layout_malts_tab.setStretch(2, 1)
+        self.layout_malts_tab.setStretch(0, 1)
+        self.layout_malts_tab.setStretch(1, 12)
+        self.layout_malts_tab.setStretch(2, 2)
+        self.layout_malts_tab.setStretch(3, 2)
         self.tab_widget_ingredients.addTab(self.tab_malts, "")
         self.tab_hops = QWidget()
         self.tab_hops.setObjectName(u"tab_hops")
         self.layout_hops_tab = QVBoxLayout(self.tab_hops)
         self.layout_hops_tab.setSpacing(6)
         self.layout_hops_tab.setObjectName(u"layout_hops_tab")
+        self.layout_hop_search = QHBoxLayout()
+        self.layout_hop_search.setObjectName(u"layout_hop_search")
+        self.edit_hop_search = QLineEdit(self.tab_hops)
+        self.edit_hop_search.setObjectName(u"edit_hop_search")
+
+        self.layout_hop_search.addWidget(self.edit_hop_search)
+
+        self.spacer_hop_search = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+
+        self.layout_hop_search.addItem(self.spacer_hop_search)
+
+        self.layout_hop_search.setStretch(0, 3)
+        self.layout_hop_search.setStretch(1, 4)
+
+        self.layout_hops_tab.addLayout(self.layout_hop_search)
+
         self.tbl_hops = QTableWidget(self.tab_hops)
         self.tbl_hops.setObjectName(u"tbl_hops")
         self.tbl_hops.setMinimumSize(QSize(0, 120))
@@ -760,16 +908,33 @@ class Ui_MainWindow(object):
 
         self.layout_hops_tab.addWidget(self.btn_hop_add)
 
-        self.layout_hops_tab.setStretch(0, 5)
-        self.layout_hops_tab.setStretch(1, 1)
-        self.layout_hops_tab.setStretch(2, 1)
-        self.layout_hops_tab.setStretch(3, 1)
+        self.layout_hops_tab.setStretch(0, 1)
+        self.layout_hops_tab.setStretch(1, 10)
+        self.layout_hops_tab.setStretch(2, 2)
+        self.layout_hops_tab.setStretch(3, 2)
+        self.layout_hops_tab.setStretch(4, 2)
         self.tab_widget_ingredients.addTab(self.tab_hops, "")
         self.tab_yeasts = QWidget()
         self.tab_yeasts.setObjectName(u"tab_yeasts")
         self.layout_yeasts_tab = QVBoxLayout(self.tab_yeasts)
         self.layout_yeasts_tab.setSpacing(6)
         self.layout_yeasts_tab.setObjectName(u"layout_yeasts_tab")
+        self.layout_yeast_search = QHBoxLayout()
+        self.layout_yeast_search.setObjectName(u"layout_yeast_search")
+        self.edit_yeast_search = QLineEdit(self.tab_yeasts)
+        self.edit_yeast_search.setObjectName(u"edit_yeast_search")
+
+        self.layout_yeast_search.addWidget(self.edit_yeast_search)
+
+        self.spacer_yeast_search = QSpacerItem(40, 20, QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Minimum)
+
+        self.layout_yeast_search.addItem(self.spacer_yeast_search)
+
+        self.layout_yeast_search.setStretch(0, 3)
+        self.layout_yeast_search.setStretch(1, 4)
+
+        self.layout_yeasts_tab.addLayout(self.layout_yeast_search)
+
         self.tbl_yeasts = QTableWidget(self.tab_yeasts)
         self.tbl_yeasts.setObjectName(u"tbl_yeasts")
         self.tbl_yeasts.setMinimumSize(QSize(0, 120))
@@ -785,8 +950,9 @@ class Ui_MainWindow(object):
 
         self.layout_yeasts_tab.addWidget(self.btn_yeast_add)
 
-        self.layout_yeasts_tab.setStretch(0, 7)
-        self.layout_yeasts_tab.setStretch(1, 1)
+        self.layout_yeasts_tab.setStretch(0, 1)
+        self.layout_yeasts_tab.setStretch(1, 14)
+        self.layout_yeasts_tab.setStretch(2, 2)
         self.tab_widget_ingredients.addTab(self.tab_yeasts, "")
 
         self.layout_ingredients.addWidget(self.tab_widget_ingredients)
@@ -800,12 +966,13 @@ class Ui_MainWindow(object):
         self.layout_main.addLayout(self.layout_right_column)
 
         self.layout_main.setStretch(0, 6)
-        self.layout_main.setStretch(1, 4)
+        self.layout_main.setStretch(1, 5)
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
 
-        self.tab_widget_ingredients.setCurrentIndex(0)
+        self.stacked_widget_stage.setCurrentIndex(0)
+        self.tab_widget_ingredients.setCurrentIndex(2)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -813,30 +980,40 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Beer Brewing Simulator", None))
-        self.lbl_brewing_state_title.setText(QCoreApplication.translate("MainWindow", u"State", None))
+        self.lbl_brewing_stage_title.setText(QCoreApplication.translate("MainWindow", u"Stage", None))
         self.btn_reset.setText(QCoreApplication.translate("MainWindow", u"Reset", None))
-        self.btn_brewing_state_prev.setText(QCoreApplication.translate("MainWindow", u"<", None))
-        self.btn_brewing_state_next.setText(QCoreApplication.translate("MainWindow", u">", None))
+        self.btn_brewing_stage_prev.setText(QCoreApplication.translate("MainWindow", u"<", None))
+        self.lbl_mashing_water.setText(QCoreApplication.translate("MainWindow", u"Water: 0 L", None))
+        self.lbl_mashing_og.setText(QCoreApplication.translate("MainWindow", u"OG: 1.000", None))
+        self.lbl_mashing_srm.setText(QCoreApplication.translate("MainWindow", u"SRM: 0", None))
+        self.lbl_boiling_water.setText(QCoreApplication.translate("MainWindow", u"Water: 0 L", None))
+        self.lbl_boiling_og.setText(QCoreApplication.translate("MainWindow", u"OG: 1.000", None))
+        self.lbl_boiling_ibu.setText(QCoreApplication.translate("MainWindow", u"IBU: 0", None))
+        self.lbl_fermenting_fg.setText(QCoreApplication.translate("MainWindow", u"FG: 1.000", None))
+        self.lbl_fermenting_abv.setText(QCoreApplication.translate("MainWindow", u"ABV: 0.0%", None))
+        self.lbl_fermenting_co2.setText(QCoreApplication.translate("MainWindow", u"CO2: 0 psi", None))
+        self.btn_brewing_stage_next.setText(QCoreApplication.translate("MainWindow", u">", None))
         self.lbl_temperature_header.setText(QCoreApplication.translate("MainWindow", u"TEMP", None))
-        self.lbl_temperature_value.setText(QCoreApplication.translate("MainWindow", u"100 \u02daC", None))
+        self.lbl_temperature_value.setText(QCoreApplication.translate("MainWindow", u"0 \u02daC", None))
         self.btn_timeline_rewind.setText(QCoreApplication.translate("MainWindow", u"\u23ee", None))
         self.btn_timeline_play_pause.setText(QCoreApplication.translate("MainWindow", u"\u25b6", None))
         self.btn_timeline_fast_forward.setText(QCoreApplication.translate("MainWindow", u"\u23ed", None))
+        self.lbl_timeline_speed.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p><span style=\" font-size:18pt;\">1x</span></p></body></html>", None))
         self.lbl_timeline_time.setText(QCoreApplication.translate("MainWindow", u"00:00", None))
+        self.btn_timeline_stop_stage.setText(QCoreApplication.translate("MainWindow", u"Stop Stage", None))
         self.lbl_summary_malts_title.setText(QCoreApplication.translate("MainWindow", u"Malts", None))
         self.lbl_summary_hops_title.setText(QCoreApplication.translate("MainWindow", u"Hops", None))
         self.lbl_summary_yeast_title.setText(QCoreApplication.translate("MainWindow", u"Yeast", None))
         self.lbl_summary_water_title.setText(QCoreApplication.translate("MainWindow", u"Batch Size", None))
         self.edit_summary_water.setPlaceholderText(QCoreApplication.translate("MainWindow", u"20 L", None))
-        self.btn_summary_water_down.setText(QCoreApplication.translate("MainWindow", u"-", None))
-        self.btn_summary_water_up.setText(QCoreApplication.translate("MainWindow", u"+", None))
+        self.btn_summary_water_up.setText(QCoreApplication.translate("MainWindow", u"Add Water", None))
         self.lbl_metric_og_title.setText(QCoreApplication.translate("MainWindow", u"OG", None))
         self.lbl_metric_og_value.setText(QCoreApplication.translate("MainWindow", u"1.035", None))
         self.lbl_metric_fg_title.setText(QCoreApplication.translate("MainWindow", u"FG", None))
         self.lbl_metric_fg_value.setText(QCoreApplication.translate("MainWindow", u"1.008", None))
         self.lbl_metric_color_title.setText(QCoreApplication.translate("MainWindow", u"Color", None))
         self.lbl_metric_srm_value.setText(QCoreApplication.translate("MainWindow", u"SRM: 9", None))
-        self.lbl_metric_rgb_preview.setText(QCoreApplication.translate("MainWindow", u"RGB", None))
+        self.lbl_metric_rgb_preview.setText("")
         self.lbl_metric_abv_title.setText(QCoreApplication.translate("MainWindow", u"ABV", None))
         self.lbl_metric_abv_value.setText(QCoreApplication.translate("MainWindow", u"5%", None))
         self.lbl_metric_ibu_title.setText(QCoreApplication.translate("MainWindow", u"IBU", None))
