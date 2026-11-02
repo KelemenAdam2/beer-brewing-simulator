@@ -1,7 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication, QMainWindow, QTableWidgetItem, QAbstractItemView, QHeaderView
-from PySide6.QtCore import Qt, QTimer
-from PySide6.QtGui import QFont
+from PySide6.QtCore import Qt, QTimer, QEventLoop
 
 from src.core.model import Malt, Hop, Yeast
 from src.ui.pyside_ui.ui_form import Ui_MainWindow
@@ -46,6 +45,7 @@ class MainWindow(QMainWindow):
         self.init_data()
         self.init_sim()
         self.connect_signals()
+        self.info_help()
 
     def init_data(self):
         # 1. Populate Malts
@@ -215,8 +215,11 @@ class MainWindow(QMainWindow):
         self.ui.list_summary_malts.clear()
         self.ui.list_summary_hops.clear()
         self.ui.list_summary_yeast.clear()
-        self.update_water_edit()
+        self.ui.edit_summary_water.setText("0.0 L")
+        self.ui.slider_temperature.setValue(0)
         self.init_sim()
+        self.refresh_metrics()
+        self.refresh_stage_metrics()
 
     def on_malt_selected(self, current):
         if not current:
@@ -270,6 +273,7 @@ class MainWindow(QMainWindow):
             self.recipe.add_malt(malt, weight)
             self.ui.list_summary_malts.addItem(f"{malt.name} ({weight:.1f} kg)")
             self.refresh_metrics()
+            self.info_help()
 
     def on_add_hop(self):
         row = self.ui.tbl_hops.currentRow()
@@ -289,6 +293,7 @@ class MainWindow(QMainWindow):
             self.refresh_metrics()
             self.boiling_end = max((h[2]*100 for h in self.recipe.hops), default=6000)
             self.set_up_timeline()
+            self.info_help()
 
     def on_add_yeast(self):
         row = self.ui.tbl_yeasts.currentRow()
@@ -305,16 +310,10 @@ class MainWindow(QMainWindow):
             self.ui.list_summary_yeast.clear()
             self.ui.list_summary_yeast.addItem(f"{yeast.name} ({yeast.lab})")
             self.refresh_metrics()
+            self.info_help()
 
     def on_water_add(self):
         self.recipe.set_water(self.recipe.current_water + 1, self.stage)
-        self.update_water_edit()
-
-    def on_water_sub(self):
-        self.recipe.set_water(max(0.0, self.recipe.current_water - 1), self.stage)
-        self.update_water_edit()
-
-    def update_water_edit(self):
         self.ui.edit_summary_water.setText(f"{self.recipe.current_water:.1f} L")
         if self.stage == 0:
             self.ui.lbl_mashing_water.setText(f"Water: {self.recipe.current_water:.1f}")
@@ -322,6 +321,7 @@ class MainWindow(QMainWindow):
             self.ui.lbl_boiling_water.setText(f"Water: {self.recipe.current_water:.1f}")
             self.ui.lbl_boiling_og.setText(f"OG: {self.recipe.current_og:.3f}")
         self.refresh_metrics()
+        self.info_help()
 
     def refresh_metrics(self):
         self.ui.lbl_metric_og_value.setText(f"{self.recipe.og:.3f}")
@@ -330,6 +330,8 @@ class MainWindow(QMainWindow):
         self.ui.lbl_metric_ibu_value.setText(f"{self.recipe.ibu:.0f}")
         self.ui.lbl_metric_srm_value.setText(f"SRM: {self.recipe.srm:.0f}")
         self.ui.lbl_metric_rgb_preview.setStyleSheet(f"background-color: {self.srm_to_hex(self.recipe.srm)};")
+        water = self.recipe.current_water if self.stage < 2 else (self.recipe.boiling_water if self.recipe.boiling_water > 0 else self.recipe.current_water)
+        self.ui.edit_summary_water.setText(f"{water:.1f} L")
 
     def search_malt(self, s):
         self.ui.tbl_malts.setCurrentItem(None)
@@ -381,9 +383,11 @@ class MainWindow(QMainWindow):
 
     def stage_next(self):
         self.manage_stages(self.stage + 1)
+        self.info_help()
 
     def stage_prev(self):
         self.manage_stages(self.stage - 1)
+        self.info_help()
 
     def stop_stage(self):
         if self.stage == 0:
@@ -404,6 +408,7 @@ class MainWindow(QMainWindow):
 
         self.refresh_metrics()
         self.manage_stages(self.stage)
+        self.info_stop_stage()
 
     def set_up_timeline(self):
         self.ui.slider_timeline.blockSignals(True)
@@ -435,6 +440,7 @@ class MainWindow(QMainWindow):
                 self.ui.slider_timeline.setValue(self.fermenting_end)
                 self.recipe.set_time(self.fermenting_end / 100)
         self.ui.slider_timeline.blockSignals(False)
+        self.refresh_stage_metrics(self.ui.slider_timeline.value())
 
     def refresh_timeline(self, val):
         if self.stage == 0:
@@ -511,6 +517,7 @@ class MainWindow(QMainWindow):
             self.ui.lbl_boiling_water.setText(f"Water: {self.recipe.current_water:.1f}")
             self.ui.lbl_boiling_og.setText(f"OG: {self.recipe.current_og:.3f}")
             self.ui.lbl_boiling_ibu.setText(f"IBU: {round(self.recipe.current_ibu)}")
+            self.ui.edit_summary_water.setText(f"{self.recipe.current_water:.1f} L")
         elif self.stage == 2:
             self.recipe.update_fermenting()
             self.ui.lbl_fermenting_fg.setText(f"FG: {self.recipe.current_fg:.3f}")
@@ -521,6 +528,7 @@ class MainWindow(QMainWindow):
     def set_temp(self):
         self.recipe.set_temp(self.ui.slider_temperature.value(), self.stage)
         self.refresh_stage_metrics(self.ui.slider_timeline.value())
+        self.info_help()
 
     def manage_stages(self, target_stage=None):
         if target_stage is not None:
@@ -576,3 +584,87 @@ class MainWindow(QMainWindow):
         # Stage 2
         can_add_yeast = (self.stage == 2 and is_active)
         self.ui.tab_yeasts.setEnabled(can_add_yeast)
+
+    def info_help(self):
+        if self.current_stage == self.stage == 0:
+            if self.recipe.current_water <= 0:
+                self.ui.lbl_info_title.setText("Add Water")
+                self.ui.lbl_info_description.setText(
+                    "Add water to set your initial mash water volume.\n"
+                    "The recommended volume: 15-20 Liters")
+            elif not self.recipe.malts:
+                self.ui.lbl_info_title.setText("Add Malt Grains")
+                self.ui.lbl_info_description.setText(
+                    "Select a grain" + " from the malts tab, adjust the weight slider and add the malt.\n"
+                    "The recommended weight: 4 kg of base malt for 20 Liters")
+            elif self.ui.slider_temperature.value() <= 50 or self.ui.slider_temperature.value() >= 70:
+                self.ui.lbl_info_title.setText("Set the Temperature")
+                self.ui.lbl_info_description.setText(
+                    "Move the temperature slider to your target mash temperature.\n"
+                    "The recommended temperature: 62-71 ˚C\n"
+                    "The optimal starch conversion peaks at 67 ˚C")
+            else:
+                self.ui.lbl_info_title.setText("Simulate the mashing stage")
+                self.ui.lbl_info_description.setText(
+                    "Press Play (▶) or scrub the Timeline slider forward.\n"
+                    "Press Stop stage button to end the mashing.\n"
+                    "The recommended time for mashing: 60-90 minutes")
+        elif self.current_stage == self.stage == 1:
+            if self.recipe.current_water <= 0:
+                self.ui.lbl_info_title.setText("Add Water")
+                self.ui.lbl_info_description.setText(
+                    "Add water to set your initial mash water volume.\n"
+                    "The recommended volume: 15-20 Liters")
+            elif not self.recipe.hops:
+                self.ui.lbl_info_title.setText("Add Hops")
+                self.ui.lbl_info_description.setText(
+                    "Select a hop" + " from the hops tab, adjust the weight and time slider and add the hop.\n"
+                    "The recommended final IBU:\n"
+                    "      • 5-40 for Lagers\n"
+                    "      • 25-100+ for Ales")
+            else:
+                self.ui.lbl_info_title.setText("Simulate the boiling stage")
+                self.ui.lbl_info_description.setText(
+                    "Press Play (▶) or scrub the Timeline slider forward.\n"
+                    "Press Stop stage button to end the boiling.\n"
+                    "The recommended time for boiling: 60-90 minutes")
+        elif self.current_stage == self.stage == 2:
+            if not self.recipe.yeast:
+                self.ui.lbl_info_title.setText("Add Yeast")
+                self.ui.lbl_info_description.setText(
+                    "Select a yeast" + " from the yeast tab and add it.")
+            elif self.ui.slider_temperature.value() <= self.recipe.yeast.min_temp or self.ui.slider_temperature.value() >= self.recipe.yeast.max_temp:
+                self.ui.lbl_info_title.setText("Set the Temperature")
+                self.ui.lbl_info_description.setText(
+                    "Move the temperature slider to your target fermentation temperature.\n"
+                    f"The recommended temperature for {self.recipe.yeast.name}: {self.recipe.yeast.min_temp}˚C - {self.recipe.yeast.max_temp}˚C\n")
+            else:
+                self.ui.lbl_info_title.setText("Simulate the fermentation stage")
+                self.ui.lbl_info_description.setText(
+                    "Press Play (▶) or scrub the Timeline slider forward.\n"
+                    "Press Stop stage button to end the fermentation.\n"
+                    "The recommended time for fermentation: 14 days")
+        else:
+            self.info_stop_stage()
+
+    def info_stop_stage(self):
+        if self.stage == 0:
+            self.ui.lbl_info_title.setText("Advance to the Next Stage")
+            self.ui.lbl_info_description.setText(
+                "Here are the results after mashing: \n"
+                f"      • OG: {self.recipe.mashing_og:.3f}\n"
+                f"      • SRM: {round(self.recipe.mashing_srm)}\n"
+                f"      • Water: {self.recipe.mashing_water:.1f}")
+        elif self.stage == 1:
+            self.ui.lbl_info_title.setText("Advance to the Next Stage")
+            self.ui.lbl_info_description.setText(
+                "Here are the results after boiling: \n"
+                f"      • OG: {self.recipe.boiling_og::.2f}\n"
+                f"      • IBU: {self.recipe.boiling_ibu:.2f}\n"
+                f"      • Water: {self.recipe.boiling_water:.1f}")
+        elif self.stage == 2:
+            self.ui.lbl_info_title.setText("End of Simulation and the Beer is Ready")
+            self.ui.lbl_info_description.setText(
+                "Here are the results after fermentation: \n"
+                f"      • OG: {self.recipe.fermenting_fg:.3f}\n"
+                f"      • ABV: {self.recipe.fermenting_abv}%")
