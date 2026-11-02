@@ -219,7 +219,6 @@ class MainWindow(QMainWindow):
         self.ui.slider_temperature.setValue(0)
         self.init_sim()
         self.refresh_metrics()
-        self.refresh_stage_metrics()
 
     def on_malt_selected(self, current):
         if not current:
