@@ -253,15 +253,16 @@ class Recipe:
 
     def update_boiling(self):
         water = self.mashing_water if self.mashing_water > 0 else self.current_water
-        if water > 0 and self.hops:
-            target_time = max((h[2] for h in self.hops), default=60)
+        if water > 0:
+            target_time = max((h[2] for h in self.hops if len(h) > 2 and h[2] > 0), default=60.0)
             history_time = max((t for t in self.boiling_history if t <= self.time), default=0.0)
             og_start = self.mashing_og if self.mashing_og > 1.0 else self.og
             water_start = self.boiling_history[history_time][0] if self.boiling_history[history_time][0] > 0 else water
             remaining_target = max(1.0, target_time - history_time)
+            ibu_start = self.boiling_history[history_time][1] if (history_time in self.boiling_history and len(self.boiling_history[history_time]) > 1) else 0.0
 
             self.current_ibu, self.current_water, self.current_og = Bc.calc_boiling(
-                self.boiling_history[history_time][1], self.ibu, og_start, water_start, self.time - history_time, remaining_target
+                ibu_start, self.ibu, og_start, water_start, self.time - history_time, remaining_target
             )
 
     def update_fermenting(self):

@@ -6,6 +6,7 @@ from src.core.model import Malt, Hop, Yeast
 from src.ui.pyside_ui.ui_form import Ui_MainWindow
 from src.core.repository import Repository
 from src.core.recipe import Recipe
+from src.ui.pyside_ui.simulation_widget import SimulationVesselWidget, draw_simulation
 
 class MainWindow(QMainWindow):
     def __init__(self, parent=None):
@@ -40,6 +41,16 @@ class MainWindow(QMainWindow):
         self.mashing_end = 12000
         self.boiling_end = 12000
         self.fermenting_end = 3000
+
+        # Simulation visual vessels
+        self.vessel_mashing = SimulationVesselWidget(self.ui.widget_mashing)
+        self.ui.horizontalLayout_5.addWidget(self.vessel_mashing)
+
+        self.vessel_boiling = SimulationVesselWidget(self.ui.widget_boiling)
+        self.ui.horizontalLayout_6.addWidget(self.vessel_boiling)
+
+        self.vessel_fermenting = SimulationVesselWidget(self.ui.widget_fermenting)
+        self.ui.horizontalLayout_4.addWidget(self.vessel_fermenting)
 
         # Wire up data and events
         self.init_data()
@@ -272,6 +283,7 @@ class MainWindow(QMainWindow):
             self.recipe.add_malt(malt, weight)
             self.ui.list_summary_malts.addItem(f"{malt.name} ({weight:.1f} kg)")
             self.refresh_metrics()
+            self.update_simulation_vessels()
             self.info_help()
 
     def on_add_hop(self):
@@ -292,6 +304,7 @@ class MainWindow(QMainWindow):
             self.refresh_metrics()
             self.boiling_end = max((h[2]*100 for h in self.recipe.hops), default=6000)
             self.set_up_timeline()
+            self.update_simulation_vessels()
             self.info_help()
 
     def on_add_yeast(self):
@@ -309,6 +322,7 @@ class MainWindow(QMainWindow):
             self.ui.list_summary_yeast.clear()
             self.ui.list_summary_yeast.addItem(f"{yeast.name} ({yeast.lab})")
             self.refresh_metrics()
+            self.update_simulation_vessels()
             self.info_help()
 
     def on_water_add(self):
@@ -320,6 +334,7 @@ class MainWindow(QMainWindow):
             self.ui.lbl_boiling_water.setText(f"Water: {self.recipe.current_water:.1f}")
             self.ui.lbl_boiling_og.setText(f"OG: {self.recipe.current_og:.3f}")
         self.refresh_metrics()
+        self.update_simulation_vessels()
         self.info_help()
 
     def refresh_metrics(self):
@@ -367,7 +382,7 @@ class MainWindow(QMainWindow):
 
     def srm_to_hex(self, srm):
         srm_colors = {
-            0: "#FFFFFF",
+            0: "#64B4F5",
             1: "#FFE699", 2: "#FFD878", 3: "#FFCA5A", 4: "#FFBF42", 5: "#FBB123",
             6: "#F8A600", 7: "#F39C00", 8: "#EA8F00", 9: "#E58500", 10: "#DE7C00",
             11: "#D77200", 12: "#CF6900", 13: "#CB6200", 14: "#C35900", 15: "#BB5100",
@@ -379,6 +394,17 @@ class MainWindow(QMainWindow):
         }
         srm = max(0, min(40, int(round(srm))))
         return srm_colors[srm]
+
+    def update_simulation_vessels(self):
+        self.vessel_mashing.set_state(self.recipe.current_water, self.srm_to_hex(self.recipe.current_srm))
+        self.vessel_boiling.set_state(self.recipe.current_water, self.srm_to_hex(self.recipe.srm))
+        vol = self.recipe.boiling_water if self.recipe.boiling_water > 0 else self.recipe.current_water
+        self.vessel_fermenting.set_state(vol, self.srm_to_hex(self.recipe.srm))
+
+    def draw_simulation(self, painter, width, height, volume=None, max_volume=40.0, liquid_color=None):
+        if volume is None:
+            volume = self.recipe.current_water
+        return draw_simulation(painter, width, height, volume, max_volume, liquid_color)
 
     def stage_next(self):
         self.manage_stages(self.stage + 1)
@@ -523,6 +549,7 @@ class MainWindow(QMainWindow):
             self.ui.lbl_fermenting_abv.setText(f"ABV: {self.recipe.current_abv:.1f}%")
             if self.recipe.temp > 0:
                 self.ui.slider_temperature.setValue(int(round(self.recipe.temp)))
+        self.update_simulation_vessels()
 
     def set_temp(self):
         self.recipe.set_temp(self.ui.slider_temperature.value(), self.stage)
@@ -583,6 +610,8 @@ class MainWindow(QMainWindow):
         # Stage 2
         can_add_yeast = (self.stage == 2 and is_active)
         self.ui.tab_yeasts.setEnabled(can_add_yeast)
+
+        self.update_simulation_vessels()
 
     def info_help(self):
         if self.current_stage == self.stage == 0:
@@ -658,7 +687,7 @@ class MainWindow(QMainWindow):
             self.ui.lbl_info_title.setText("Advance to the Next Stage")
             self.ui.lbl_info_description.setText(
                 "Here are the results after boiling: \n"
-                f"      • OG: {self.recipe.boiling_og::.2f}\n"
+                f"      • OG: {self.recipe.boiling_og:.3f}\n"
                 f"      • IBU: {self.recipe.boiling_ibu:.2f}\n"
                 f"      • Water: {self.recipe.boiling_water:.1f}")
         elif self.stage == 2:
