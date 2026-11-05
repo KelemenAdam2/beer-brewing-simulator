@@ -57,6 +57,7 @@ class MainWindow(QMainWindow):
         self.init_sim()
         self.connect_signals()
         self.info_help()
+        self.showMaximized()
 
     def init_data(self):
         # 1. Populate Malts
